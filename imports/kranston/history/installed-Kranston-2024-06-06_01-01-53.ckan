@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.07.01.53",
+    "ksp_version_min": "1.10",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [],
+    "download": null,
+    "release_date": "2024-06-06T01:01:53.1975115-06:00",
+    "kind": "metapackage"
+}

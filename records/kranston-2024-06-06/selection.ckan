@@ -1,0 +1,221 @@
+{
+  "abstract": "Meko KSP mod selection",
+  "depends": [
+    {
+      "name": "AnyResContinued"
+    },
+    {
+      "name": "Astrogator"
+    },
+    {
+      "name": "AutomatedScreenshots"
+    },
+    {
+      "name": "BetterLoadSaveGame"
+    },
+    {
+      "name": "BetterScienceLabsContinued"
+    },
+    {
+      "name": "BetterTimeWarpCont"
+    },
+    {
+      "name": "BonVoyage"
+    },
+    {
+      "name": "CameraFocusChanger"
+    },
+    {
+      "name": "Chatterer"
+    },
+    {
+      "name": "ChattererExtended"
+    },
+    {
+      "name": "CommunityDeltaVMaps"
+    },
+    {
+      "name": "CrowdSourcedScience"
+    },
+    {
+      "name": "DE-IVAExtension"
+    },
+    {
+      "name": "DistantObject"
+    },
+    {
+      "name": "DistantObject-default"
+    },
+    {
+      "name": "DockingPortAlignmentIndicator"
+    },
+    {
+      "name": "EasyVesselSwitch"
+    },
+    {
+      "name": "EditorExtensionsRedux"
+    },
+    {
+      "name": "EnvironmentalVisualEnhancements"
+    },
+    {
+      "name": "EnvironmentalVisualEnhancements-HR"
+    },
+    {
+      "name": "FMRSContinued"
+    },
+    {
+      "name": "FilterExtensions"
+    },
+    {
+      "name": "FinalFrontier"
+    },
+    {
+      "name": "ForScienceUpdated"
+    },
+    {
+      "name": "FreeIva"
+    },
+    {
+      "name": "GRAPES"
+    },
+    {
+      "name": "JanitorsCloset"
+    },
+    {
+      "name": "KRASH"
+    },
+    {
+      "name": "KerbalEngineerRedux"
+    },
+    {
+      "name": "KerbalImprovedSaveSystem"
+    },
+    {
+      "name": "LIME"
+    },
+    {
+      "name": "MANGO"
+    },
+    {
+      "name": "MechJeb2"
+    },
+    {
+      "name": "OPMAllinOneKSPediaDeltaVMap"
+    },
+    {
+      "name": "ORANGE"
+    },
+    {
+      "name": "PEAR"
+    },
+    {
+      "name": "PLUM"
+    },
+    {
+      "name": "Parallax"
+    },
+    {
+      "name": "Parallax-StockScatterTextures"
+    },
+    {
+      "name": "Parallax-StockTextures"
+    },
+    {
+      "name": "PerSaveScreenshots"
+    },
+    {
+      "name": "PlanetShine"
+    },
+    {
+      "name": "PlanetShine-Config-Default"
+    },
+    {
+      "name": "PoodsCalmNebulaSkybox"
+    },
+    {
+      "name": "RCSBuildAid"
+    },
+    {
+      "name": "RasterPropMonitor"
+    },
+    {
+      "name": "RasterPropMonitor-Core"
+    },
+    {
+      "name": "ReStock"
+    },
+    {
+      "name": "ReStockPlus"
+    },
+    {
+      "name": "ReentryParticleEffect"
+    },
+    {
+      "name": "SAVE"
+    },
+    {
+      "name": "Scatterer"
+    },
+    {
+      "name": "Scatterer-config"
+    },
+    {
+      "name": "Scatterer-sunflare"
+    },
+    {
+      "name": "ScienceAlert"
+    },
+    {
+      "name": "ScienceSituationInfo"
+    },
+    {
+      "name": "ScrapYard"
+    },
+    {
+      "name": "SpaceXLegs"
+    },
+    {
+      "name": "StageRecovery"
+    },
+    {
+      "name": "StationKeeping"
+    },
+    {
+      "name": "TextureReplacer"
+    },
+    {
+      "name": "Toolbar"
+    },
+    {
+      "name": "TrackingStationEvolved"
+    },
+    {
+      "name": "Trajectories"
+    },
+    {
+      "name": "TransferWindowPlannerFork"
+    },
+    {
+      "name": "VABReorienter"
+    },
+    {
+      "name": "Waterfall"
+    },
+    {
+      "name": "WaterfallRestock"
+    },
+    {
+      "name": "WaypointManager"
+    },
+    {
+      "name": "xScienceContinued"
+    }
+  ],
+  "identifier": "Meko-Kranston-2024",
+  "kind": "metapackage",
+  "license": "unknown",
+  "name": "Kranston-2024",
+  "spec_version": "v1.18",
+  "version": "1"
+}

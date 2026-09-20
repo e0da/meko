@@ -1,0 +1,10 @@
+{
+  "abstract": "Meko KSP mod selection",
+  "depends": [],
+  "identifier": "Meko-Core",
+  "kind": "metapackage",
+  "license": "unknown",
+  "name": "Core",
+  "spec_version": "v1.18",
+  "version": "1"
+}

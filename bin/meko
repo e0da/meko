@@ -1,0 +1,345 @@
+#!/usr/bin/env python3
+"""Record and manage independent Mac KSP instances alongside CKAN."""
+import argparse
+import ctypes
+from datetime import datetime, timezone
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import shutil
+import subprocess
+import struct
+import sys
+import tempfile
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def read_json(path):
+    return json.loads(path.read_text())
+
+
+def write_json(path, value):
+    path.write_text(json.dumps(value, indent=2, sort_keys=True) + '\n')
+
+
+def digest(path):
+    h = hashlib.sha256()
+    with path.open('rb') as f:
+        for block in iter(lambda: f.read(1024 * 1024), b''):
+            h.update(block)
+    return h.hexdigest()
+
+
+def idle(path):
+    if (path / 'CKAN/registry.locked').exists():
+        raise ValueError('Close CKAN before copying or recording this instance; its registry is locked.')
+    processes = subprocess.check_output(['ps', 'ax', '-o', 'command='], text=True)
+    if any(line.startswith(str(path / 'KSP.app/Contents/MacOS/KSP')) for line in processes.splitlines()):
+        raise ValueError('Close KSP before copying or recording this instance.')
+
+
+def validate(path):
+    if not (path / 'KSP.app/Contents/MacOS/KSP').is_file() or not (path / 'GameData').is_dir():
+        raise ValueError(f'Not a Mac KSP instance: {path}')
+    for current, dirs, files in os.walk(path, followlinks=False):
+        for name in dirs + files:
+            item = Path(current) / name
+            if item.is_symlink():
+                if os.path.isabs(os.readlink(item)) or not item.resolve().is_relative_to(path.resolve()):
+                    raise ValueError(f'Cannot preserve external symlink safely: {item}')
+                if not item.exists():
+                    raise ValueError(f'Broken symlink: {item}')
+
+
+def prepare(path):
+    validate(path)
+    link = path / 'KSP_x64.exe'
+    expected = 'KSP.app/Contents/MacOS/KSP'
+    if link.is_symlink() and os.readlink(link) == expected:
+        return
+    if os.path.lexists(link):
+        raise ValueError(f'Refusing to replace existing compatibility anchor: {link}')
+    link.symlink_to(expected)
+
+
+def clone_file(source, destination):
+    if sys.platform != 'darwin':
+        raise ValueError('Instance cloning requires macOS and a clonefile-capable filesystem.')
+    lib = ctypes.CDLL('/usr/lib/libSystem.B.dylib', use_errno=True)
+    clone = lib.clonefile
+    clone.argtypes = [ctypes.c_char_p, ctypes.c_char_p, ctypes.c_uint32]
+    clone.restype = ctypes.c_int
+    if clone(os.fsencode(source), os.fsencode(destination), 1) != 0:
+        err = ctypes.get_errno()
+        raise OSError(err, 'clonefile failed; no full-copy fallback: ' + os.strerror(err), source)
+    return destination
+
+
+def clone_tree(source, destination):
+    if os.path.lexists(destination):
+        raise ValueError(f'Destination already exists: {destination}')
+    idle(source)
+    validate(source)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    stage = Path(tempfile.mkdtemp(prefix='.meko-clone-', dir=destination.parent))
+    try:
+        target = stage / 'instance'
+        shutil.copytree(source, target, symlinks=True, copy_function=clone_file)
+        for current, dirs, files in os.walk(target):
+            for item in [Path(current)] + [Path(current) / x for x in files]:
+                if not item.is_symlink():
+                    item.chmod(item.stat().st_mode | 0o200)
+        prepare(target)
+        if os.path.lexists(destination):
+            raise ValueError(f'Destination already exists: {destination}')
+        target.rename(destination)
+    finally:
+        shutil.rmtree(stage)
+
+
+def create_core(source, destination):
+    from steam_manifest import installed_files
+    if os.path.lexists(destination):
+        raise ValueError(f'Destination already exists: {destination}')
+    idle(source)
+    files, provenance = installed_files(source)
+    for name, expected in files.items():
+        item = source / name
+        if expected['flags'] & 64:
+            continue
+        if expected['link']:
+            raise ValueError('Depot contains a symbolic link; review before creating Core.')
+        if item.is_symlink() or not item.resolve().is_relative_to(source.resolve()):
+            raise ValueError(f'Unexpected Steam symlink: {name}')
+        h = hashlib.sha1()
+        with item.open('rb') as f:
+            for chunk in iter(lambda: f.read(1024 * 1024), b''):
+                h.update(chunk)
+        if h.hexdigest() != expected['sha1'] or item.stat().st_size != expected['size']:
+            raise ValueError(f'Steam manifest hash mismatch: {name}. Verify game files in Steam.')
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    stage = Path(tempfile.mkdtemp(prefix='.meko-core-', dir=destination.parent))
+    try:
+        target = stage / 'instance'
+        target.mkdir()
+        for name, expected in files.items():
+            item = target / name
+            if expected['flags'] & 64:
+                item.mkdir(parents=True, exist_ok=True)
+            else:
+                item.parent.mkdir(parents=True, exist_ok=True)
+                clone_file(source / name, item)
+        validate(target)
+        if os.path.lexists(destination):
+            raise ValueError(f'Destination already exists: {destination}')
+        target.rename(destination)
+    finally:
+        shutil.rmtree(stage)
+    for current, dirs, names in os.walk(destination, topdown=False):
+        for item in [Path(current) / x for x in names] + [Path(current)]:
+            item.chmod(item.stat().st_mode & ~0o222)
+    return provenance
+
+
+def install_flags(path, assets):
+    idle(path)
+    validate(path)
+    sources = sorted(assets.glob('*.png'))
+    if not sources:
+        raise ValueError('No PNG flags in the supplied directory.')
+    target = path / 'GameData/Meko/Flags'
+    if not target.resolve().is_relative_to(path.resolve()):
+        raise ValueError('Flag destination escapes this instance.')
+    for source in sources:
+        with source.open('rb') as f:
+            header = f.read(24)
+        if len(header) != 24 or header[:8] != b'\x89PNG\r\n\x1a\n':
+            raise ValueError(f'Not a PNG: {source.name}')
+        if struct.unpack('>II', header[16:24]) not in [(256, 160), (512, 256)]:
+            raise ValueError(f'Unexpected flag dimensions: {source.name}; preserve the original and review it.')
+        destination = target / source.name
+        if destination.exists() and digest(destination) != digest(source):
+            raise ValueError(f'Existing flag is different: {source.name}; use a new filename to retain both versions.')
+    target.mkdir(parents=True, exist_ok=True)
+    for source in sources:
+        destination = target / source.name
+        if not destination.exists():
+            shutil.copy2(source, destination)
+    print(f'{len(sources)} flags available in {target}')
+
+
+def package(name, dependencies):
+    return {'spec_version': 'v1.18', 'identifier': 'Meko-' + re.sub(r'[^A-Za-z0-9-]', '-', name),
+            'name': name, 'abstract': 'Meko KSP mod selection', 'version': '1',
+            'license': 'unknown', 'kind': 'metapackage', 'depends': dependencies}
+
+
+def game_info(path):
+    readme = (path / 'readme.txt').read_text(errors='replace')
+    version = re.search(r'(?m)^Version\s+(\d+\.\d+\.\d+)', readme)
+    build = re.search(r'build id\s*=\s*(\d+)', (path / 'buildID.txt').read_text())
+    if not version or not build:
+        raise ValueError('Cannot identify KSP version/build from stock files.')
+    dlc = path / 'GameData/SquadExpansion'
+    return {'version': version[1], 'build': build[1], 'platform': 'macOS',
+            'dlc_directories': sorted(p.name for p in dlc.iterdir() if p.is_dir()) if dlc.exists() else []}
+
+
+def snapshot(path, name, destination):
+    if destination.exists():
+        raise ValueError(f'Record already exists: {destination}')
+    idle(path)
+    validate(path)
+    registry = path / 'CKAN/registry.json'
+    raw = read_json(registry).get('installed_modules', {}) if registry.exists() else {}
+    modules = {}
+    dlcs = {}
+    for key, installed in sorted(raw.items()):
+        metadata = installed['source_module']
+        value = {'version': metadata['version'], 'automatic': installed.get('auto_installed', False),
+                 'metadata': metadata}
+        (dlcs if metadata.get('kind') == 'dlc' else modules)[key] = value
+    files = {}
+    for item in sorted((path / 'GameData').rglob('*')):
+        if item.is_file() and item.name != '.DS_Store':
+            files[item.relative_to(path).as_posix()] = digest(item)
+    for relative in ['settings.cfg', 'CKAN/compatible_ksp_versions.json']:
+        item = path / relative
+        if item.exists():
+            files[relative] = digest(item)
+    state = {'schema': 'meko-state/v1', 'instance': name,
+             'captured_at': datetime.now(timezone.utc).isoformat(), 'game': game_info(path),
+             'mods': modules, 'dlcs': dlcs, 'files': files,
+             'registry_sha256': digest(registry) if registry.exists() else None,
+             'coverage': 'GameData and settings hashes; saves, craft files and archives require a local full clone.'}
+    destination.mkdir(parents=True)
+    write_json(destination / 'state.json', state)
+    write_json(destination / 'exact.ckan', package(name + '-exact', [
+        {'name': key, 'version': value['version']} for key, value in modules.items()]))
+    write_json(destination / 'selection.ckan', package(name, [
+        {'name': key} for key, value in modules.items() if not value['automatic']]))
+    print(f'Recorded {len(modules)} CKAN mods and {len(files)} file hashes in {destination}')
+
+
+def differences(a, b):
+    return {'added': sorted(b.keys() - a.keys()), 'removed': sorted(a.keys() - b.keys()),
+            'changed': {k: [a[k], b[k]] for k in sorted(a.keys() & b.keys()) if a[k] != b[k]}}
+
+
+def compare(before, after):
+    a, b = read_json(before / 'state.json'), read_json(after / 'state.json')
+    print(json.dumps({'game': [a['game'], b['game']] if a['game'] != b['game'] else None,
+                      'mods': differences({k: v['version'] for k, v in a['mods'].items()},
+                                          {k: v['version'] for k, v in b['mods'].items()}),
+                      'files': differences(a['files'], b['files'])}, indent=2))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--config', type=Path, default=ROOT / 'instances.local.json')
+    commands = parser.add_subparsers(dest='command', required=True)
+    commands.add_parser('status')
+    p = commands.add_parser('core', help='Create a frozen stock reference from verified Steam depot files')
+    p.add_argument('steam', type=Path)
+    p.add_argument('name')
+    p = commands.add_parser('clone', help='Copy all files independently; preserve saves and add the Mac CKAN anchor')
+    p.add_argument('source')
+    p.add_argument('name')
+    p.add_argument('--role', choices=['playable', 'template'], default='playable')
+    p = commands.add_parser('snapshot', help='Record installed versions and hashes, without copying payloads')
+    p.add_argument('name')
+    p.add_argument('output', type=Path)
+    p = commands.add_parser('compare', help='Compare two recorded states; never apply changes')
+    p.add_argument('before', type=Path)
+    p.add_argument('after', type=Path)
+    p = commands.add_parser('flags', help='Copy local flags into an instance without replacing different files')
+    p.add_argument('name')
+    p.add_argument('assets', type=Path)
+    for action in ['register', 'select', 'launch']:
+        p = commands.add_parser(action)
+        p.add_argument('name')
+    args = parser.parse_args()
+    config_file = args.config.resolve()
+    root = config_file.parent
+    config = read_json(config_file)
+    instances = config['instances']
+
+    def local(p):
+        return (root / p).resolve()
+
+    def instance(name):
+        if name not in instances:
+            raise ValueError(f'Unknown instance {name!r}; add it to {config_file.name}.')
+        return local(instances[name]['path'])
+
+    def writable(name):
+        path = instance(name)
+        if instances[name]['role'] == 'reference':
+            raise ValueError('Core is a frozen reference; clone it before registering, selecting or launching.')
+        return path
+
+    def ckan(*arguments):
+        processes = subprocess.check_output(["ps", "ax", "-o", "command="], text=True)
+        if any(re.search(r"(?i)^[a-z]:.*\\ckan\.exe\s+gui(?:\s|$)", line.strip())
+               for line in processes.splitlines()):
+            raise ValueError("Close CKAN before changing its instance configuration.")
+        for name in instances:
+            idle(instance(name))
+        command = config.get('ckan_command')
+        if not command:
+            raise ValueError('Set ckan_command in instances.local.json to the installed CKAN Wine command.')
+        subprocess.run([*map(os.path.expanduser, command), *map(str, arguments), '--asroot'], check=True)
+        if config.get('wine_server') and config.get('wine_prefix'):
+            subprocess.run([os.path.expanduser(config['wine_server']), '-w'],
+                           env={**os.environ, 'WINEPREFIX': os.path.expanduser(config['wine_prefix'])},
+                           check=True, timeout=60)
+
+    if args.command == 'status':
+        for name, value in instances.items():
+            path = instance(name)
+            print(f'{name:12} {value["role"]:10} {"present" if path.is_dir() else "MISSING":8} {path}')
+    elif args.command in ['clone', 'core']:
+        if not re.fullmatch(r'[A-Za-z][A-Za-z0-9_-]*', args.name):
+            raise ValueError('Instance name must start with a letter and contain only letters, digits, _ or -.')
+        target = root / 'Instances' / args.name
+        if args.name in instances or os.path.lexists(target):
+            raise ValueError(f'Instance already exists: {args.name}')
+        if args.command == 'core':
+            provenance = create_core(args.steam.resolve(), target)
+            instances[args.name] = {'path': target.relative_to(root).as_posix(), 'role': 'reference', 'steam': provenance}
+            print(f'Created frozen reference {args.name} from verified Steam files.')
+        else:
+            clone_tree(instance(args.source), target)
+            instances[args.name] = {'path': target.relative_to(root).as_posix(), 'role': args.role, 'cloned_from': args.source}
+            print(f'Created independent {args.name} from {args.source}. Run register {args.name} with CKAN closed.')
+        write_json(config_file, config)
+    elif args.command == 'snapshot':
+        snapshot(instance(args.name), args.name, local(args.output))
+    elif args.command == 'compare':
+        compare(local(args.before), local(args.after))
+    elif args.command == 'flags':
+        install_flags(writable(args.name), args.assets.resolve())
+    elif args.command == 'register':
+        path = writable(args.name)
+        idle(path)
+        prepare(path)
+        ckan('instance', 'add', args.name, path)
+    elif args.command == 'select':
+        writable(args.name)
+        ckan('instance', 'default', args.name)
+        subprocess.run(['open', str(Path(config['gui_app']).expanduser())], check=True)
+    elif args.command == 'launch':
+        path = writable(args.name)
+        validate(path)
+        subprocess.run(['open', '-n', str(path / 'KSP.app')], check=True)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except (ValueError, OSError, KeyError, subprocess.CalledProcessError, subprocess.TimeoutExpired) as error:
+        print(f'meko: {error}', file=sys.stderr)
+        sys.exit(1)

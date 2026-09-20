@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.02.45.26",
+    "ksp_version_min": "1.12.5",
+    "ksp_version_max": "1.12.5",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued",
+            "version": "2.0.9.1"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.7.1"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR",
+            "version": "2:EVE-1.2.2-1"
+        },
+        {
+            "name": "ForScienceUpdated",
+            "version": "1.6.0"
+        },
+        {
+            "name": "KerbalConstructionTime",
+            "version": "1:1.4.12"
+        },
+        {
+            "name": "Parallax",
+            "version": "2.0.6"
+        },
+        {
+            "name": "Parallax-StockScatterTextures",
+            "version": "2.0.1"
+        },
+        {
+            "name": "Parallax-StockTextures",
+            "version": "2.0.0"
+        },
+        {
+            "name": "ReStock",
+            "version": "1.4.5"
+        },
+        {
+            "name": "ReStockPlus",
+            "version": "1.4.5"
+        },
+        {
+            "name": "Scatterer",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "Scatterer-sunflare",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "SpaceXLegs",
+            "version": "2.9.3"
+        },
+        {
+            "name": "StageRecovery",
+            "version": "1.9.7"
+        },
+        {
+            "name": "Toolbar",
+            "version": "1:1.8.1.1"
+        }
+    ],
+    "download": null,
+    "release_date": "2024-06-05T20:45:26.929075-06:00",
+    "kind": "metapackage"
+}

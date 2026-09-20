@@ -1,0 +1,16 @@
+{
+  "base": {
+    "excluded": [],
+    "local_assets": [
+      "Meko flags: four original PNGs, stored locally"
+    ],
+    "status": "stock-plus-DLC"
+  },
+  "meko": {
+    "display_name": "Meko",
+    "excluded": [],
+    "source": "imports/kranston/Kranston-02.ckan",
+    "status": "candidate-not-installed"
+  },
+  "policy": "Selections are complete root-mod lists. Record removals and reasons here; CKAN remains the dependency resolver. Editing a recipe does not alter an existing installation."
+}

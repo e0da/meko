@@ -1,0 +1,213 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kranston-01",
+    "name": "Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.07.18.07",
+    "ksp_version_min": "1.10",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued"
+        },
+        {
+            "name": "AutomatedScreenshots"
+        },
+        {
+            "name": "BetterLoadSaveGame"
+        },
+        {
+            "name": "BetterScienceLabsContinued"
+        },
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "BonVoyage"
+        },
+        {
+            "name": "CameraFocusChanger"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "ChattererExtended"
+        },
+        {
+            "name": "CommunityDeltaVMaps"
+        },
+        {
+            "name": "CrowdSourcedScience"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "DistantObject-default"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "EasyVesselSwitch"
+        },
+        {
+            "name": "EditorExtensionsRedux"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "FMRSContinued"
+        },
+        {
+            "name": "ForScienceUpdated"
+        },
+        {
+            "name": "GRAPES"
+        },
+        {
+            "name": "JanitorsCloset"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "KerbalEngineerRedux"
+        },
+        {
+            "name": "KerbalImprovedSaveSystem"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "LIME"
+        },
+        {
+            "name": "MANGO"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "OPMAllinOneKSPediaDeltaVMap"
+        },
+        {
+            "name": "ORANGE"
+        },
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "PEAR"
+        },
+        {
+            "name": "PerSaveScreenshots"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "PlanetShine-Config-Default"
+        },
+        {
+            "name": "PLUM"
+        },
+        {
+            "name": "PoodsCalmNebulaSkybox"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "RCSBuildAid"
+        },
+        {
+            "name": "ReentryParticleEffect"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "SAVE"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "ScienceAlert"
+        },
+        {
+            "name": "ScienceSituationInfo"
+        },
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "SOS"
+        },
+        {
+            "name": "SpaceXLegs"
+        },
+        {
+            "name": "StageRecovery"
+        },
+        {
+            "name": "StationKeeping"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TrackingStationEvolved"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "TransferWindowPlannerFork"
+        },
+        {
+            "name": "VABReorienter"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "WaterfallRestock"
+        },
+        {
+            "name": "WaypointManager"
+        },
+        {
+            "name": "xScienceContinued"
+        }
+    ],
+    "release_date": "2024-06-06T07:18:07.8300679Z",
+    "kind": "metapackage"
+}

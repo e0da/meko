@@ -1,0 +1,10 @@
+{
+  "abstract": "Meko KSP mod selection",
+  "depends": [],
+  "identifier": "Meko-Green-exact",
+  "kind": "metapackage",
+  "license": "unknown",
+  "name": "Green-exact",
+  "spec_version": "v1.18",
+  "version": "1"
+}

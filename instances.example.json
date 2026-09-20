@@ -1,0 +1,17 @@
+{
+  "instances": {
+    "Blue": {
+      "path": "Instances/Blue",
+      "role": "playable"
+    }
+  },
+  "ckan_command": [
+    "/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wine",
+    "--bottle",
+    "CKAN",
+    "~/Library/Application Support/CKAN-GUI/ckan.exe"
+  ],
+  "gui_app": "~/Applications/CKAN GUI.app",
+  "wine_prefix": "~/Library/Application Support/CrossOver/Bottles/CKAN",
+  "wine_server": "/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wineserver"
+}
