@@ -1,0 +1,7 @@
+/Instances/
+/Snapshots/
+/.state/
+/instances.local.json
+*.pyc
+__pycache__/
+.DS_Store
