@@ -1,0 +1,212 @@
+{
+  "automatic_dependencies": 12,
+  "dlcs": 2,
+  "download_cache_files": 0,
+  "exports": [
+    {
+      "file": "Kranston-01.ckan",
+      "sha256": "6f75763216180910ecb3812c9e5081b496f0e8a33cf757ee101ed551dc24bf71",
+      "source": "CKAN/Kranston-01.ckan"
+    },
+    {
+      "file": "Kranston-02.ckan",
+      "sha256": "390a9efd7194a7036d7dd6559c5ba6949e71ea7289e206ccd846764ccab86410",
+      "source": "CKAN/Kranston-02.ckan"
+    },
+    {
+      "file": "installed-kranston-01.ckan",
+      "sha256": "3542ecff516d1f02d721591e19339141c6f7b57ec869ff0082db7219d4235510",
+      "source": "CKAN/installed-kranston-01.ckan"
+    },
+    {
+      "file": "installed-kranston-02.ckan",
+      "sha256": "70ad3de2800b68101f3001cd1834f6d4c484f078da94df0a044f8fea4a5dc7c9",
+      "source": "CKAN/installed-kranston-02.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_11-16-22.ckan",
+      "sha256": "bb281f14ccf8c183d1f01be94a014ec1c6a9997485623151b949193767a83a90",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_11-16-22.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_11-20-09.ckan",
+      "sha256": "768b8e32ed643236c62ac226b40ec2c4493c5bf281e12dd4a28b5e5780d1309c",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_11-20-09.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_11-21-19.ckan",
+      "sha256": "b8c914b1293186f3dcbbf57c7c72cdbe6d71090d4a977e5a54a7607704bf2541",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_11-21-19.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_11-29-36.ckan",
+      "sha256": "03d6537ba3ba045abaf0b27c6cbe1dad64b508555324cd1cce0487195b1c02d6",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_11-29-36.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_16-41-04.ckan",
+      "sha256": "83cc14f159dd6d25de19582ff1b48dc67fc37bd95d2c247441ccd8b63f708976",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_16-41-04.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_18-19-10.ckan",
+      "sha256": "dd7a0ced0da4479baa8b09c5d6cd02e5f4017d7ed9b6efed8df2da7a33189c55",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_18-19-10.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-37-49.ckan",
+      "sha256": "5905ec6f31a84b488e1aef9043b397ef4c6de8af9d5bf46eab7661046ba350aa",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-37-49.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-45-26.ckan",
+      "sha256": "3f66a82f9f99e933afdf2a69b90bcf8d026c6d983a468360131158325d35ced3",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-45-26.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-46-01.ckan",
+      "sha256": "12b71e4c9eb13d6ddd58a9845c14525ae09d0cdd043e7b1ac10d9e6dd903ac86",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-46-01.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-56-52.ckan",
+      "sha256": "63cb6006772e0ad0669628c4b391f8d378e5d0cb35c80d203de2ebe589e5d8b1",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-56-52.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-57-55.ckan",
+      "sha256": "e88236eea9a97f193b68cbb96fb468c2eef35766454ed788a36172a581f5916d",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-57-55.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_20-59-52.ckan",
+      "sha256": "f54c494863c7a4694754007dbb99bdbb45e76a9f2b9b678346d9cebed2907f06",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_20-59-52.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-03-58.ckan",
+      "sha256": "820f9c5e3a170b9c013ab0e59de718ebbcc8e9de54e9a9316a2afe09ae0b5f51",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-03-58.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-11-13.ckan",
+      "sha256": "08a4671e54958b2308a8049d21a220eb8bc6fe28e414e022e2910a317a125941",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-11-13.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-19-05.ckan",
+      "sha256": "b5e8d93c366e1453df1c052232861af6e971464239fbd586ebd04ed6fc4257be",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-19-05.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-24-30.ckan",
+      "sha256": "283052ee55adcc37e557d2ab96c154425815619a29bf2d91e17c05e43b74ae1d",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-24-30.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-32-15.ckan",
+      "sha256": "b39eddf054e92c0e7cc57bac7adb7b032c9238ff0da86ecc82643c753b5e0ff3",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-32-15.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-38-26.ckan",
+      "sha256": "b59d7d0e2ba3b7920bed03b8c7be54add42ba5456fdc3d411fc9efc4c0247593",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-38-26.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-05_21-41-35.ckan",
+      "sha256": "6422de6072aba17cbd979611836da7c3ea77589ab37d35b8c80c984b6c27cbbe",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-05_21-41-35.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_01-01-53.ckan",
+      "sha256": "3137613f2be294d5e7b23bda961dd4e5259df4c0efe7e591eed4caf5ef7de01e",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_01-01-53.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_01-13-12.ckan",
+      "sha256": "d1ab09060defd4965dfa08895247b30251903c963f94b156388f14fc6686ac92",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_01-13-12.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_01-28-15.ckan",
+      "sha256": "bdf8d5e5de0c7d7fb6e4db3140f490e14a8ed49583d932fc08f8c43daca6f701",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_01-28-15.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_01-53-40.ckan",
+      "sha256": "7299d3688a72846faa5bf2f08eaa0c28f150d491b83e0288f71c6a752360dad6",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_01-53-40.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-00-49.ckan",
+      "sha256": "d99d1b039036a9310d1d65e3a0662072fda26806aacf95b3f2ce66909a022af7",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-00-49.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-19-16.ckan",
+      "sha256": "a6085aef2d7cceefefe8e1b11d43de0d68e15342a7736b956b7e078b7fa98fab",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-19-16.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-19-19.ckan",
+      "sha256": "dee47c7f3cc4f5c829a87437abb7af423e3b98d3a759827935b8cd28f64bd662",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-19-19.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-32-47.ckan",
+      "sha256": "33e6279ac9c5990b13ba8764840f9ff2296790176a3361f6fcc0f84022392de5",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-32-47.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-34-01.ckan",
+      "sha256": "24ddbb9a527dcc3ac63355269715e6b7d4530cca4b8372f0a3277971bc679528",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-34-01.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-34-45.ckan",
+      "sha256": "25a1ea694560a99e7a332da03f877031d402b1991656020170985a08f6079f49",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-34-45.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-45-34.ckan",
+      "sha256": "1b1e053b84f0680aa39fbb64c83fdafa92e22cc15fc19905014ae32526d89abe",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-45-34.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-52-45.ckan",
+      "sha256": "bb7bbe1c92ae39cf3a97037768812d287a4e1c25db80399b1e735f718e14b20a",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-52-45.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_02-59-53.ckan",
+      "sha256": "1e2f54d751d63c1f0a98fb483c5424a6996941440130c9986150936e56dc5577",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_02-59-53.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_03-05-43.ckan",
+      "sha256": "24cbe0fdb647fb63026b22d07d837ffd0b87caed01f80df7afa011abad7bc53d",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_03-05-43.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_03-16-49.ckan",
+      "sha256": "f5c8e859303ca24e4020f986e82afea414b283a14e8b49771df09e18d366e3c4",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_03-16-49.ckan"
+    },
+    {
+      "file": "history/installed-Kranston-2024-06-06_03-30-47.ckan",
+      "sha256": "4a2b1ee16ba739f5d1cc9455314aafdeef2edbe6a02415b4b7b9bc617d6e3f96",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/history/installed-Kranston-2024-06-06_03-30-47.ckan"
+    },
+    {
+      "file": "installed-Kranston.ckan",
+      "sha256": "4a2b1ee16ba739f5d1cc9455314aafdeef2edbe6a02415b4b7b9bc617d6e3f96",
+      "source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/installed-Kranston.ckan"
+    }
+  ],
+  "installed_mods": 82,
+  "recovered_on": "2026-09-20",
+  "registry_sha256": "4652c157ef8a034b6357f87faca85e5a388230a121c78f781f83ab686db75d0a",
+  "registry_source": "KSP/2024-06-05 - Kranston/Kerbal Space Program/CKAN/registry.json",
+  "source_platform": "Windows"
+}

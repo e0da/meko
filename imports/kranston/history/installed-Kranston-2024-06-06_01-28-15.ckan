@@ -1,0 +1,112 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.07.28.15",
+    "ksp_version_min": "1.10",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued",
+            "version": "2.0.9.1"
+        },
+        {
+            "name": "BetterLoadSaveGame",
+            "version": "2.5.3.5"
+        },
+        {
+            "name": "BetterTimeWarpCont",
+            "version": "2.3.13"
+        },
+        {
+            "name": "CameraFocusChanger",
+            "version": "1:1.1.0.2"
+        },
+        {
+            "name": "CrowdSourcedScience",
+            "version": "v6.1"
+        },
+        {
+            "name": "EasyVesselSwitch",
+            "version": "2.3"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.7.1"
+        },
+        {
+            "name": "FMRSContinued",
+            "version": "1.2.9.5"
+        },
+        {
+            "name": "GRAPES",
+            "version": "1:GRAPES"
+        },
+        {
+            "name": "KerbalEngineerRedux",
+            "version": "1.1.9.0"
+        },
+        {
+            "name": "LIME",
+            "version": "1:1.1.3.1"
+        },
+        {
+            "name": "MANGO",
+            "version": "1:1.1.1.1"
+        },
+        {
+            "name": "OPMAllinOneKSPediaDeltaVMap",
+            "version": "1.0.1"
+        },
+        {
+            "name": "PEAR",
+            "version": "1:1.0.2.1"
+        },
+        {
+            "name": "Scatterer-sunflare",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "ScienceSituationInfo",
+            "version": "1:1.3.5"
+        },
+        {
+            "name": "ScrapYard",
+            "version": "2.2.2.1-release"
+        },
+        {
+            "name": "SpaceXLegs",
+            "version": "2.9.3"
+        },
+        {
+            "name": "StageRecovery",
+            "version": "1.9.7"
+        },
+        {
+            "name": "TextureReplacer",
+            "version": "v4.5.3"
+        },
+        {
+            "name": "Toolbar",
+            "version": "1:1.8.1.1"
+        },
+        {
+            "name": "Trajectories",
+            "version": "v2.4.5.3"
+        },
+        {
+            "name": "VABReorienter",
+            "version": "1.2"
+        },
+        {
+            "name": "Waterfall",
+            "version": "0.9.0"
+        }
+    ],
+    "download": null,
+    "release_date": "2024-06-06T01:28:15.2677776-06:00",
+    "kind": "metapackage"
+}

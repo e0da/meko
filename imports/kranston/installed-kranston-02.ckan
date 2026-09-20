@@ -1,0 +1,105 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.06.50.10",
+    "ksp_version_min": "1.10",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued"
+        },
+        {
+            "name": "AutomatedScreenshots"
+        },
+        {
+            "name": "BetterLoadSaveGame"
+        },
+        {
+            "name": "BetterScienceLabsContinued"
+        },
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "BonVoyage"
+        },
+        {
+            "name": "CameraFocusChanger"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "ChattererExtended"
+        },
+        {
+            "name": "CommunityDeltaVMaps"
+        },
+        {
+            "name": "CrowdSourcedScience"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "DistantObject-default"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "EasyVesselSwitch"
+        },
+        {
+            "name": "EditorExtensionsRedux"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "ForScienceUpdated"
+        },
+        {
+            "name": "GRAPES"
+        },
+        {
+            "name": "JanitorsCloset"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "KerbalEngineerRedux"
+        },
+        {
+            "name": "KerbalImprovedSaveSystem"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "LIME"
+        },
+        {
+            "name": "MANGO"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "OPMAllinOneKSPediaDeltaVMap"
+        }
+    ],
+    "release_date": "2024-06-06T06:50:10.8323921Z",
+    "kind": "metapackage"
+}

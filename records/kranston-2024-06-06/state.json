@@ -1,0 +1,4510 @@
+{
+  "coverage": "Recovered registry metadata only. Installed files and archive availability have not been verified; this is not a tested Mac configuration.",
+  "dlcs": {
+    "BreakingGround-DLC": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The second expansion pack adds new science-collecting equipment to deploy on your missions, surface features to be investigated scattered across distant planets, and a wealth of new robotic parts for players to test their creativity with",
+        "author": "SQUAD",
+        "identifier": "BreakingGround-DLC",
+        "kind": "dlc",
+        "ksp_version_max": "1.12.4",
+        "ksp_version_min": "1.12.2",
+        "license": "restricted",
+        "name": "Breaking Ground",
+        "resources": {
+          "steamstore": "https://store.steampowered.com/app/982970",
+          "store": "https://www.kerbalspaceprogram.com/product/kerbal-space-program-breaking-ground/"
+        },
+        "spec_version": "v1.28",
+        "version": "1.7.1"
+      },
+      "version": "1.7.1"
+    },
+    "MakingHistory-DLC": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The first expansion pack adds an immersive Mission Builder, a History Pack featuring missions inspired by historical events, and a wealth of new parts for players to use across their KSP experience",
+        "author": "SQUAD",
+        "identifier": "MakingHistory-DLC",
+        "kind": "dlc",
+        "ksp_version_max": "1.12.4",
+        "ksp_version_min": "1.12.2",
+        "license": "restricted",
+        "name": "Making History",
+        "resources": {
+          "steamstore": "https://store.steampowered.com/app/283740",
+          "store": "https://www.kerbalspaceprogram.com/product/kerbal-space-program-making-history/"
+        },
+        "spec_version": "v1.28",
+        "version": "1.12.1"
+      },
+      "version": "1.12.1"
+    }
+  },
+  "files": {},
+  "game": {
+    "build": "03190",
+    "dlc_directories": [
+      "MakingHistory",
+      "Serenity"
+    ],
+    "platform": "Windows",
+    "version": "1.12.5"
+  },
+  "instance": "Kranston historical",
+  "mods": {
+    "ASETAgency": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "ASET Consolidated Agency and Flag",
+        "author": [
+          "alexustas",
+          "StoneBlue"
+        ],
+        "download": "https://spacedock.info/mod/3248/ASET%20Consolidated%20Agency/download/v2.0.2",
+        "download_hash": {
+          "sha1": "DD7B0E7AB3F567BBB3C838A74157779B0568335D",
+          "sha256": "25EEC3D00966E5BF793BE07EEF7831215ACCB75383FAE834C66BBFEDF8E90A04"
+        },
+        "download_size": 197570,
+        "identifier": "ASETAgency",
+        "install": [
+          {
+            "find": "ASET"
+          }
+        ],
+        "install_size": 196303,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.1",
+        "license": "CC-BY-NC-SA-3.0",
+        "name": "ASET Consolidated Agency",
+        "release_date": "2023-03-08T20:41:24.487287Z",
+        "resources": {
+          "bugtracker": "https://github.com/StoneBlue/ASET-Consolidated-Agency/issues",
+          "remote-avc": "https://raw.githubusercontent.com/StoneBlue/ASET-Consolidated-Agency/main/GameData/ASET/ASET_Agency/ASET_Agency.version",
+          "repository": "https://github.com/StoneBlue/ASET-Consolidated-Agency",
+          "spacedock": "https://spacedock.info/mod/3248/ASET%20Consolidated%20Agency"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "agency",
+          "library"
+        ],
+        "version": "v2.0.2"
+      },
+      "version": "v2.0.2"
+    },
+    "ASETProps": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "A full-featured set of different devices & decoration elements for creation of interactive interior spaces for parts & crafts.",
+        "author": [
+          "alexustas",
+          "Stone Blue",
+          "JonnyOThan"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "ASETAgency"
+          },
+          {
+            "min_version": "1:v0.30.2",
+            "name": "RasterPropMonitor-Core"
+          }
+        ],
+        "download": "https://spacedock.info/mod/3240/ASET%20Consolidated%20Props%20Pack/download/v2.0.7",
+        "download_hash": {
+          "sha1": "3ED559F8F54388B35A24A160A5612E48288EA114",
+          "sha256": "DD18ECDEC4DA9427E0E82AA5302544F808105E681C299ECC7FCAC12E0AB5B513"
+        },
+        "download_size": 20347477,
+        "identifier": "ASETProps",
+        "install": [
+          {
+            "find": "ASET/ASET_Props",
+            "install_to": "GameData/ASET"
+          }
+        ],
+        "install_size": 42216768,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.1",
+        "license": "CC-BY-NC-SA-3.0",
+        "name": "ASET Consolidated Props Pack",
+        "release_date": "2023-11-08T17:14:03.528268Z",
+        "resources": {
+          "bugtracker": "https://github.com/StoneBlue/ASET-Consolidated-Props/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211905-wip-1125-181-aset-consolidated-avionics-props-iva-packs/",
+          "remote-avc": "https://raw.githubusercontent.com/StoneBlue/ASET-Consolidated-Props/main/GameData/ASET/ASET_Props/ASET_Props.version",
+          "repository": "https://github.com/StoneBlue/ASET-Consolidated-Props",
+          "spacedock": "https://spacedock.info/mod/3240/ASET%20Consolidated%20Props%20Pack"
+        },
+        "spec_version": "v1.4",
+        "supports": [
+          {
+            "name": "MechJeb2"
+          },
+          {
+            "name": "SCANsat"
+          },
+          {
+            "name": "VesselView"
+          },
+          {
+            "name": "DockingPortAlignmentIndicator"
+          },
+          {
+            "name": "RealChute"
+          },
+          {
+            "name": "TACLS"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "library",
+          "crewed",
+          "control",
+          "first-person"
+        ],
+        "version": "v2.0.7"
+      },
+      "version": "v2.0.7"
+    },
+    "AnyResContinued": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Change your screen resolution on the fly",
+        "author": "linuxgurugamer",
+        "conflicts": [
+          {
+            "name": "AnyRes"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/AnyRes/releases/download/2.0.9.1/AnyRes-1.12.0-2.0.9.1.zip",
+        "download_hash": {
+          "sha1": "AD52A67BA79297C4A99E60A9D3F0B00DBAEC40B1",
+          "sha256": "4321D4F19603C13DB2CC73DE8F0E9E8B5CC8E8E4AA46747F90ED45DFE4064CF1"
+        },
+        "download_size": 22772,
+        "identifier": "AnyResContinued",
+        "install": [
+          {
+            "filter": ".DS_Store",
+            "find": "AnyRes"
+          }
+        ],
+        "install_size": 33127,
+        "ksp_version_min": "1.8.0",
+        "license": "CC-BY-4.0",
+        "name": "AnyRes Continued",
+        "release_date": "2024-03-07T14:01:34Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170160-131-anyres-continued-change-your-screen-resolution-on-the-fly/",
+          "remote-avc": "http://ksp.spacetux.net/avc/AnyRes",
+          "repository": "https://github.com/linuxgurugamer/AnyRes",
+          "spacedock": "https://spacedock.info/mod/1681/AnyRes%20Continued"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "2.0.9.1"
+      },
+      "version": "2.0.9.1"
+    },
+    "Astrogator": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A space-navigational aide for Kerbal Space Program",
+        "author": "HebaruSan",
+        "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+        "description": "Displays a table of all of the bodies reachable from the current location, along with the time till burn and delta V needed to reach them. These values can be used to time warp or generate maneuver nodes. Supports prograde and retrograde orbits, nested ejection trajectories, transfers to satellites of the current parent body, and transfers to other vessels.",
+        "download": "https://github.com/HebaruSan/Astrogator/releases/download/v1.0.0/Astrogator.zip",
+        "download_hash": {
+          "sha1": "F00F5700B0FCA50C29301EAC007DCCC719D7A52E",
+          "sha256": "5D78B93699F8F04BBAF8FAD4B35BF26FAD1DD398318FE2D1F05F9214BFB03948"
+        },
+        "download_size": 80970,
+        "identifier": "Astrogator",
+        "install_size": 177385,
+        "ksp_version": "1.12",
+        "license": "GPL-3.0",
+        "localizations": [
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "Astrogator",
+        "recommends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "LoadingTipsPlus"
+          }
+        ],
+        "release_date": "2022-11-09T23:59:17Z",
+        "resources": {
+          "bugtracker": "https://github.com/HebaruSan/Astrogator/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155998-*",
+          "remote-avc": "https://raw.githubusercontent.com/HebaruSan/Astrogator/master/GameData/Astrogator/Astrogator.version",
+          "repository": "https://github.com/HebaruSan/Astrogator"
+        },
+        "spec_version": "v1.2",
+        "suggests": [
+          {
+            "name": "GravityTurn"
+          },
+          {
+            "name": "Trajectories"
+          },
+          {
+            "name": "BetterBurnTime"
+          },
+          {
+            "name": "PreciseNode"
+          },
+          {
+            "name": "NavballDockingIndicator"
+          },
+          {
+            "name": "WarpEverywhere"
+          },
+          {
+            "name": "ManeuverQueue"
+          }
+        ],
+        "supports": [
+          {
+            "name": "RasterPropMonitor"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "information",
+          "control"
+        ],
+        "version": "v1.0.0"
+      },
+      "version": "v1.0.0"
+    },
+    "AutomatedScreenshots": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "automated screenshots",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/AutomatedScreenshots/releases/download/0.8.5.7/automatedscreenshots-1.12.0-0.8.5.7.zip",
+        "download_hash": {
+          "sha1": "57E071D0257C7292808C01EAD8B62E3E1EFA8317",
+          "sha256": "A0893FCB260C2E3B8F0E9368132DB01DDDC3FDAC90512E708C396BB23B39EBC6"
+        },
+        "download_size": 49574,
+        "identifier": "AutomatedScreenshots",
+        "install": [
+          {
+            "find": "AutomatedScreenshots"
+          }
+        ],
+        "install_size": 79540,
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-3.0",
+        "name": "Automated Screenshots & Saves",
+        "release_date": "2022-08-22T22:42:28Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/AutomatedScreenshots/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116979-*",
+          "remote-avc": "http://ksp.spacetux.net/avc/automatedscreenshots",
+          "repository": "https://github.com/linuxgurugamer/AutomatedScreenshots",
+          "spacedock": "https://spacedock.info/mod/43/Automated%20Screenshots%20&%20Saves"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "0.8.5.7"
+      },
+      "version": "0.8.5.7"
+    },
+    "BetterLoadSaveGame": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Save games with dates, integration in main gaim",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/BetterLoadSaveGame/releases/download/2.5.3.5/BetterLoadSaveGame-1.12.0-2.5.3.5.zip",
+        "download_hash": {
+          "sha1": "8647F6C9D3276165FB230FA61AA052A69C26EA62",
+          "sha256": "2EF84CF8C19478868F72D6F52C0E4445059A13A256739296AD711E5F40F970CA"
+        },
+        "download_size": 27848,
+        "identifier": "BetterLoadSaveGame",
+        "install_size": 48760,
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "name": "Better Load Save Game Renewed",
+        "release_date": "2022-11-30T01:41:01Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/BetterLoadSaveGame/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191543-18x-betterloadsavegame/",
+          "remote-avc": "http://ksp.spacetux.net/avc/BetterLoadSaveGame",
+          "repository": "https://github.com/linuxgurugamer/BetterLoadSaveGame",
+          "spacedock": "https://spacedock.info/mod/2326/Better%20Load%20Save%20Game%20Renewed"
+        },
+        "spec_version": "v1.6",
+        "tags": [
+          "plugin"
+        ],
+        "version": "2.5.3.5"
+      },
+      "version": "2.5.3.5"
+    },
+    "BetterScienceLabsContinued": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Better Science Labs Continued",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "SpacetuxSA"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/BetterScienceLabsContinued/releases/download/0.2.1/BetterScienceLabsContinued-1.12.0-0.2.1.zip",
+        "download_hash": {
+          "sha1": "702DADDF19E45D4CFE29C35B7CF9C06DBB32EF77",
+          "sha256": "8B1DABD6B09F89A35E98C138F4427A3B5DA8E32EC2DC1C8F6F2A4279793F841F"
+        },
+        "download_size": 2207291,
+        "identifier": "BetterScienceLabsContinued",
+        "install": [
+          {
+            "find": "BetterScienceLabsContinued"
+          }
+        ],
+        "install_size": 5830392,
+        "ksp_version_min": "1.8.0",
+        "license": "MIT",
+        "name": "Better Science Labs Continued",
+        "recommends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "SpacetuxSA"
+          }
+        ],
+        "release_date": "2021-08-04T00:56:12Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/BetterScienceLabsContinued/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-*",
+          "remote-avc": "http://ksp.spacetux.net/avc/BetterScienceLabsContinued",
+          "repository": "https://github.com/linuxgurugamer/BetterScienceLabsContinued",
+          "spacedock": "https://spacedock.info/mod/45/Better%20Science%20Labs%20Continued"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "parts",
+          "science"
+        ],
+        "version": "0.2.1"
+      },
+      "version": "0.2.1"
+    },
+    "BetterTimeWarpCont": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Improved time warping",
+        "author": [
+          "HappyFaceIndustries",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "ToolbarController"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/BetterTimeWarpContinued/releases/download/2.3.13/BetterTimeWarp-1.12.0-2.3.13.zip",
+        "download_hash": {
+          "sha1": "AEE5DD6F46C10C301307E1D4D9B613E14943C5AA",
+          "sha256": "F794B8E7271694A01ADE6C22C043F32E9E463657F2DC63FCBA89F2AA1C43FB59"
+        },
+        "download_size": 25927,
+        "identifier": "BetterTimeWarpCont",
+        "install": [
+          {
+            "find": "BetterTimeWarp"
+          }
+        ],
+        "install_size": 48548,
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-3.0",
+        "name": "BetterTimeWarpContinued",
+        "release_date": "2022-01-25T13:32:42Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/BetterTimeWarpContinued/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154935-*",
+          "remote-avc": "http://ksp.spacetux.net/avc/BetterTimeWarp",
+          "repository": "https://github.com/linuxgurugamer/BetterTimeWarpContinued",
+          "spacedock": "https://spacedock.info/mod/1162/BetterTimeWarpContinued"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "2.3.13"
+      },
+      "version": "2.3.13"
+    },
+    "BonVoyage": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Make your wheels rolling and ships rowing",
+        "author": [
+          "RealGecko",
+          "Maja"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/950/BonVoyage/download/1.4.1",
+        "download_hash": {
+          "sha1": "38A173AFF15B08B250B91DD07DCC2C10868655E4",
+          "sha256": "E0D49420D02D65382A20FAAC50F00F120E87F591557F3B85E99A517F12DFF0FF"
+        },
+        "download_size": 151510,
+        "identifier": "BonVoyage",
+        "install_size": 470617,
+        "ksp_version": "1.12.3",
+        "license": "GPL-3.0",
+        "localizations": [
+          "en-us",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "BonVoyage",
+        "release_date": "2022-10-02T17:33:04.450682Z",
+        "resources": {
+          "bugtracker": "https://github.com/jarosm/KSP-BonVoyage/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172447-ksp-15x-bon-voyage-make-your-wheels-rolling-01411-2018-11-10/",
+          "remote-avc": "https://raw.githubusercontent.com/jarosm/KSP-BonVoyage/master/GameData/BonVoyage/Versioning/BonVoyage.version",
+          "repository": "https://github.com/jarosm/KSP-BonVoyage",
+          "spacedock": "https://spacedock.info/mod/950/BonVoyage"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1:1.4.1"
+      },
+      "version": "1:1.4.1"
+    },
+    "CameraFocusChanger": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A plugin that lets you change the focus of the camera by pressing 'o' when hovering a part.",
+        "author": "linuxgurugamer",
+        "download": "https://spacedock.info/mod/1625/Refocused%20Camera%20Focus%20Changer/download/1.1.0.2",
+        "download_hash": {
+          "sha1": "661274DB6152765D2F38608938B0FC257AA19E0C",
+          "sha256": "794057617BDAA7DFBE65FFF52E241FADF458CD47780820ACBA9D18A0B9F546D2"
+        },
+        "download_size": 11502,
+        "identifier": "CameraFocusChanger",
+        "install_size": 19777,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9.0",
+        "license": "MIT",
+        "name": "Camera Focus Changer",
+        "release_date": "2022-02-21T23:46:46.174093Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169044-131-refocused-camera-focus-changer/",
+          "remote-avc": "http://ksp.spacetux.net/avc/CameraFocusChanger",
+          "repository": "https://github.com/linuxgurugamer/camerafocuschanger",
+          "spacedock": "https://spacedock.info/mod/1625/Refocused%20Camera%20Focus%20Changer"
+        },
+        "spec_version": "1",
+        "suggests": [
+          {
+            "name": "KerbalChangelog"
+          }
+        ],
+        "tags": [
+          "plugin"
+        ],
+        "version": "1:1.1.0.2"
+      },
+      "version": "1:1.1.0.2"
+    },
+    "Chatterer": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A plugin for Kerbal Space Program which adds some SSTV, beeps, and nonsensical radio chatter between your command pods and Mission Control.",
+        "author": "Athlonic",
+        "download": "https://spacedock.info/mod/208/Chatterer/download/0.9.99",
+        "download_hash": {
+          "sha1": "429F98F43400512269B5D4F1686E495841812B2E",
+          "sha256": "CC9ACBD323779ABF4EA6B0E7B3B111763CC1D4F90682F682D498C15CFB8229F5"
+        },
+        "download_size": 6920079,
+        "identifier": "Chatterer",
+        "install_size": 7375379,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.0",
+        "license": "GPL-3.0",
+        "name": "Chatterer",
+        "release_date": "2020-03-20T10:43:02.079402Z",
+        "resources": {
+          "bugtracker": "https://github.com/Athlonic/Chatterer/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-105-chatterer-v097-keep-talking-11-nov-2015/&page=1",
+          "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=27",
+          "repository": "https://github.com/Athlonic/Chatterer",
+          "spacedock": "https://spacedock.info/mod/208/Chatterer"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "sound",
+          "crewed"
+        ],
+        "version": "0.9.99"
+      },
+      "version": "0.9.99"
+    },
+    "ChattererExtended": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "This add-on for the formidable \"Chatterer\" mod by Athlonic will currently add 625 new kerbalized chatter-files for your hearing pleasure.",
+        "author": "hoover2701",
+        "depends": [
+          {
+            "name": "Chatterer"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1367/Chatterer%20Extended/download/0.6.2",
+        "download_hash": {
+          "sha1": "E5FE9404717FDDB75210C04135C19C3F7F846872",
+          "sha256": "CDF7843AC1657E4839DEA13EE7106DDDA16F11CA279CE0698525BDD21938CDE5"
+        },
+        "download_size": 38638937,
+        "identifier": "ChattererExtended",
+        "install": [
+          {
+            "find": "Chatterer"
+          }
+        ],
+        "ksp_version_min": "1.2.0",
+        "license": "CC-BY-4.0",
+        "name": "Chatterer Extended",
+        "release_date": "2018-04-05T21:55:24.513144Z",
+        "resources": {
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160545-122-chatterer-extended-more-kerbalized-chatter-for-chatterer-v06/",
+          "spacedock": "https://spacedock.info/mod/1367/Chatterer%20Extended"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "config",
+          "sound"
+        ],
+        "version": "0.6.2"
+      },
+      "version": "0.6.2"
+    },
+    "ClickThroughBlocker": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Helps eliminate the clickthrough problem with mods",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1689/Click%20Through%20Blocker/download/2.1.10.21",
+        "download_hash": {
+          "sha1": "907469B404A97733E701A8195E810810814CED57",
+          "sha256": "D52D4EA9735585981A3C95AAB3C8FE72874DA5E5208052CD3A882E35E6A088FF"
+        },
+        "download_size": 112293,
+        "identifier": "ClickThroughBlocker",
+        "install": [
+          {
+            "find": "000_ClickThroughBlocker"
+          }
+        ],
+        "install_size": 142747,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.11.0",
+        "license": "GPL-3.0",
+        "name": "ClickThrough Blocker",
+        "release_date": "2023-01-24T18:44:04.92729Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/ClickThroughBlocker/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170747-131-click-through-blocker/",
+          "remote-avc": "http://ksp.spacetux.net/avc/ClickThroughBlocker",
+          "repository": "https://github.com/linuxgurugamer/ClickThroughBlocker",
+          "spacedock": "https://spacedock.info/mod/1689/Click%20Through%20Blocker"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "1:2.1.10.21"
+      },
+      "version": "1:2.1.10.21"
+    },
+    "CommunityDeltaVMaps": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "KSPedia addition of map displaying delta-V requirements to reach bodies in the stock Kerbol system.",
+        "author": "Pepepito",
+        "download": "https://spacedock.info/mod/2581/Delta-V%20Map/download/2.8",
+        "download_hash": {
+          "sha1": "0CB598B0C713520B8B53611F875571A985937E56",
+          "sha256": "B37A17322EB06B1E225F2A152B4C8188679E2C33B1E46514C50E29DAE666DDB8"
+        },
+        "download_size": 161841,
+        "identifier": "CommunityDeltaVMaps",
+        "install": [
+          {
+            "find_matches_files": true,
+            "find_regexp": "Delta-V Map.*\\.ksp",
+            "install_to": "GameData/CommunityDeltaVMaps"
+          }
+        ],
+        "install_size": 161529,
+        "ksp_version_min": "1.9",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "Community Delta-V Maps",
+        "release_date": "2021-02-13T23:13:22.374864Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/87463-173-community-delta-v-map-27/",
+          "repository": "https://github.com/Kowgan/ksp_cheat_sheets",
+          "spacedock": "https://spacedock.info/mod/2581/Delta-V%20Map"
+        },
+        "spec_version": "v1.16",
+        "tags": [
+          "config",
+          "information"
+        ],
+        "version": "2:2.8"
+      },
+      "version": "2:2.8"
+    },
+    "ContractConfigurator": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "A config-file based solution for creating new contracts!",
+        "author": [
+          "nightingale",
+          "KSP-RO team"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "Harmony2"
+          }
+        ],
+        "download": "https://github.com/KSP-RO/ContractConfigurator/releases/download/v2.9.2.0/ContractConfigurator_v2.9.2.0.zip",
+        "download_hash": {
+          "sha1": "B2BC1272D96EDB64E003F3EE4A1FE425DC8EA635",
+          "sha256": "E569C620D1B45F79C4ABA38A4A49F3F358D4D56D902C2EC31565BFBD51E8FB6D"
+        },
+        "download_size": 590613,
+        "identifier": "ContractConfigurator",
+        "install": [
+          {
+            "file": "GameData/ContractConfigurator"
+          }
+        ],
+        "install_size": 1601976,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.3",
+        "ksp_version_strict": true,
+        "license": "MIT",
+        "localizations": [
+          "en-us",
+          "zh-cn"
+        ],
+        "name": "Contract Configurator",
+        "recommends": [
+          {
+            "name": "WaypointManager"
+          }
+        ],
+        "release_date": "2024-02-07T11:47:14Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/KSP-RO/ContractConfigurator/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040--",
+          "license": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/LICENSE.txt",
+          "manual": "https://github.com/jrossignol/ContractConfigurator/wiki",
+          "metanetkan": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/ContractConfiguratorRO.netkan",
+          "remote-avc": "https://github.com/KSP-RO/ContractConfigurator/raw/master/GameData/ContractConfigurator/ContractConfigurator.version",
+          "repository": "https://github.com/KSP-RO/ContractConfigurator"
+        },
+        "spec_version": "v1.16",
+        "suggests": [
+          {
+            "name": "ContractsWindowPlus"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "library",
+          "career"
+        ],
+        "version": "v2.9.2.0"
+      },
+      "version": "v2.9.2.0"
+    },
+    "CrowdSourcedScience": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Provides a nearly inexhaustible supply of science reports in Kerbal Space Program",
+        "author": [
+          "DuoDex",
+          "Olympic1"
+        ],
+        "depends": [
+          {
+            "min_version": "3.0.0",
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://github.com/DuoDex/CrowdSourcedScience/releases/download/v6.1/CrowdSourcedScience-v6.1.zip",
+        "download_hash": {
+          "sha1": "BD37167966F9FDBCA81BCED1196E560C88BA5771",
+          "sha256": "74CA6891CEDEECC09765006300F606796949F7365CBA98F7D14AE308814A7A3A"
+        },
+        "download_size": 347808,
+        "identifier": "CrowdSourcedScience",
+        "install": [
+          {
+            "find": "CrowdSourcedScience"
+          }
+        ],
+        "install_size": 704010,
+        "ksp_version_min": "1.8.0",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "Crowd Sourced Science",
+        "release_date": "2024-02-18T19:15:14Z",
+        "resources": {
+          "bugtracker": "https://github.com/DuoDex/CrowdSourcedScience/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/92332-css/",
+          "metanetkan": "https://raw.githubusercontent.com/DuoDex/CrowdSourcedScience/master/CrowdSourcedScience.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/DuoDex/CrowdSourcedScience/master/GameData/CrowdSourcedScience/CrowdSourcedScience.version",
+          "repository": "https://github.com/DuoDex/CrowdSourcedScience"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "science"
+        ],
+        "version": "v6.1"
+      },
+      "version": "v6.1"
+    },
+    "DE-IVAExtension": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Advanced IVAs for all stock pods!",
+        "author": [
+          "DemonEin",
+          "HonkHogan",
+          "JonnyOThan"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "RasterPropMonitor-Core"
+          },
+          {
+            "name": "ASETProps"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2193/DE_IVAExtension/download/v1.2.0",
+        "download_hash": {
+          "sha1": "02DBD781D6E29A2F706ECC7E3985C56FE176B344",
+          "sha256": "59AE2744E995C8C2C0B687B38AAF16BF1071C66C752CF2B6DC1AEA22FD4F18FF"
+        },
+        "download_size": 177870,
+        "identifier": "DE-IVAExtension",
+        "install": [
+          {
+            "find": "DE_IVAExtension"
+          }
+        ],
+        "install_size": 885844,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.0",
+        "license": "CC-BY-NC-SA-3.0",
+        "name": "DE_IVAExtension",
+        "release_date": "2023-05-12T21:17:24.713934Z",
+        "resources": {
+          "bugtracker": "https://github.com/FirstPersonKSP/DE_IVAExtension/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211932-112x-de_ivaextension-adopted-aset-ivas-for-all-stock-pods/",
+          "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/DE_IVAExtension/master/GameData/DE_IVAExtension/DE_IVAExtension.version",
+          "repository": "https://github.com/FirstPersonKSP/DE_IVAExtension",
+          "spacedock": "https://spacedock.info/mod/2193/DE_IVAExtension"
+        },
+        "spec_version": "v1.4",
+        "supports": [
+          {
+            "name": "ProbeControlRoom"
+          }
+        ],
+        "tags": [
+          "config",
+          "crewed",
+          "first-person"
+        ],
+        "version": "v1.2.0"
+      },
+      "version": "v1.2.0"
+    },
+    "DistantObject": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Visual enhancement mod that makes objects realistically visible over large distances",
+        "author": [
+          "Rubber Ducky",
+          "MOARdV",
+          "TheDarkBadger",
+          "LisiasT"
+        ],
+        "depends": [
+          {
+            "name": "DistantObject-config"
+          },
+          {
+            "min_version": "3.1.3",
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L/download/2.1.1.16",
+        "download_hash": {
+          "sha1": "70BAB7EB98A0B38981367854DDA2B5DD79555EFC",
+          "sha256": "936588D3D2A18AFDB49AD0A76C73EEEE29E9E271E6B58A32CF67F0E6388CF35A"
+        },
+        "download_size": 125403,
+        "identifier": "DistantObject",
+        "install": [
+          {
+            "filter": "PlanetColors.cfg",
+            "find": "DistantObject"
+          }
+        ],
+        "install_size": 280855,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.3.1",
+        "license": [
+          "GPL-2.0",
+          "restricted"
+        ],
+        "name": "Distant Object Enhancement /L",
+        "release_date": "2024-04-28T11:05:17.260914Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/net-lisias-ksp/DistantObject/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
+          "license": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/LICENSE",
+          "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/DistantObject.version",
+          "repository": "https://github.com/net-lisias-ksp/DistantObject",
+          "spacedock": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L"
+        },
+        "spec_version": "v1.8",
+        "tags": [
+          "plugin",
+          "graphics"
+        ],
+        "version": "v2.1.1.16"
+      },
+      "version": "v2.1.1.16"
+    },
+    "DistantObject-default": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Default planets colors",
+        "author": [
+          "TheDarkBadger",
+          "Lisias"
+        ],
+        "conflicts": [
+          {
+            "name": "DistantObject-config"
+          }
+        ],
+        "depends": [
+          {
+            "name": "DistantObject"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L/download/2.1.1.16",
+        "download_hash": {
+          "sha1": "70BAB7EB98A0B38981367854DDA2B5DD79555EFC",
+          "sha256": "936588D3D2A18AFDB49AD0A76C73EEEE29E9E271E6B58A32CF67F0E6388CF35A"
+        },
+        "download_size": 125403,
+        "identifier": "DistantObject-default",
+        "install": [
+          {
+            "find": "PlanetColors.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/DistantObject"
+          }
+        ],
+        "install_size": 1259,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.3.1",
+        "license": "CC-BY-4.0",
+        "name": "Distant Object Enhancement /L default config",
+        "provides": [
+          "DistantObject-config"
+        ],
+        "release_date": "2024-04-28T11:05:17.260914Z",
+        "resources": {
+          "bugtracker": "https://github.com/net-lisias-ksp/DistantObject/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
+          "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/DistantObject.version",
+          "repository": "https://github.com/net-lisias-ksp/DistantObject",
+          "spacedock": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L"
+        },
+        "spec_version": "v1.16",
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "v2.1.1.16"
+      },
+      "version": "v2.1.1.16"
+    },
+    "DockingPortAlignmentIndicator": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The Docking Port Alignment Indicator is designed to help you dock manually, by presenting target alignment and relative position in a clean and intuitive manner.",
+        "author": [
+          "NavyFish",
+          "micha"
+        ],
+        "depends": [
+          {
+            "min_version": "2.6.22",
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/543/Docking%20Port%20Alignment%20Indicator/download/6.10.0.0",
+        "download_hash": {
+          "sha1": "60242FA9103079A6E30CBF4EA196D951ED8A4770",
+          "sha256": "614F8E80F25839BAC77D41C7C7ADC87F27AB4367B7BF424E873B062E5929B9C0"
+        },
+        "download_size": 322761,
+        "identifier": "DockingPortAlignmentIndicator",
+        "install": [
+          {
+            "file": "GameData/NavyFish"
+          }
+        ],
+        "install_size": 311088,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "name": "Docking Port Alignment Indicator",
+        "recommends": [
+          {
+            "name": "RasterPropMonitor"
+          }
+        ],
+        "release_date": "2021-11-23T04:07:11.647682Z",
+        "resources": {
+          "bugtracker": "https://github.com/bfishman/Docking-Port-Alignment-Indicator/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=40423",
+          "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=361",
+          "repository": "https://github.com/bfishman/Docking-Port-Alignment-Indicator",
+          "spacedock": "https://spacedock.info/mod/543/Docking%20Port%20Alignment%20Indicator"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "information"
+        ],
+        "version": "6.10.0.0"
+      },
+      "version": "6.10.0.0"
+    },
+    "EasyVesselSwitch": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The stock game doesn't offer a consistent model of the camera positioning when the active vessel is switched. The EVS does. Now, your camera won't jump randomly as you switch between the vessels. Additionally to that you get some more features (see the forum).",
+        "author": "IgorZ",
+        "download": "https://spacedock.info/mod/1906/Easy%20Vessel%20Switch/download/2.3",
+        "download_hash": {
+          "sha1": "A86AEB3DAF1E731228C9FC70DAC9B91F20231B4A",
+          "sha256": "420576178A60C8259F4D147CB3DE2E483A0800FDCC2E663E9B5A3583D7BB9ED4"
+        },
+        "download_size": 161675,
+        "identifier": "EasyVesselSwitch",
+        "install_size": 737735,
+        "ksp_version_max": "1.99",
+        "ksp_version_min": "1.11",
+        "license": "Unlicense",
+        "localizations": [
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "Easy Vessel Switch (EVS)",
+        "release_date": "2021-07-02T06:02:06.333522Z",
+        "resources": {
+          "bugtracker": "https://github.com/ihsoft/EasyVesselSwitch/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/141180-easy-vessel-switch-evs/",
+          "metanetkan": "https://raw.githubusercontent.com/ihsoft/EasyVesselSwitch/master/EasyVesselSwitch.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/ihsoft/EasyVesselSwitch/master/EasyVesselSwitch.version",
+          "repository": "https://github.com/ihsoft/EasyVesselSwitch",
+          "spacedock": "https://spacedock.info/mod/1906/Easy%20Vessel%20Switch"
+        },
+        "spec_version": "v1.18",
+        "suggests": [
+          {
+            "name": "KIS"
+          },
+          {
+            "name": "KAS"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "convenience",
+          "information"
+        ],
+        "version": "2.3"
+      },
+      "version": "2.3"
+    },
+    "EditorExtensionsRedux": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/48/Editor%20Extensions%20Redux/download/3.4.5",
+        "download_hash": {
+          "sha1": "F98AAEFF2331DFCD390A88A1C657F72132AA4913",
+          "sha256": "6A15CAC6E0369A37569967F85C3AF0A76DCD68BFA30D7AC3CDC7CB1A0C2F6CFA"
+        },
+        "download_size": 67327,
+        "identifier": "EditorExtensionsRedux",
+        "install_size": 142660,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.11.1",
+        "license": "MIT",
+        "name": "Editor Extensions Redux",
+        "recommends": [
+          {
+            "name": "JanitorsCloset"
+          }
+        ],
+        "release_date": "2023-06-27T11:33:33.315171Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/EditorExtensionsRedux/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127378-editor-extensions-redux-301-released-with-selectroot-merge/&do=findComment&comment=2314915",
+          "remote-avc": "http://ksp.spacetux.net/avc/EditorExtensionsRedux",
+          "repository": "https://github.com/linuxgurugamer/EditorExtensionsRedux",
+          "spacedock": "https://spacedock.info/mod/48/Editor%20Extensions%20Redux"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "3.4.5"
+      },
+      "version": "3.4.5"
+    },
+    "EnvironmentalVisualEnhancements": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Version of EVE plugins which highly improves performance. Use as a replacement for regular EVE: Visual enhancements including clouds, lights, etc. Based on the work of rbray89, WazWaz, R-T-B, BIOZ",
+        "author": [
+          "rbray89",
+          "WazWaz",
+          "R-T-B",
+          "blackrack"
+        ],
+        "conflicts": [
+          {
+            "name": "EnvironmentalVisualEnhancements-LR"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2631/Environmental%20Visual%20Enhancements%20Redux/download/1.11.7.1",
+        "download_hash": {
+          "sha1": "762D7C774711E65FD5754D856CA3265B7C06B9C1",
+          "sha256": "F7D4CBE0F496048D50168EA1ECACB9D41A9858E748815C50DFCF1D331A0C728C"
+        },
+        "download_size": 878729,
+        "identifier": "EnvironmentalVisualEnhancements",
+        "install_size": 978419,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.9.0",
+        "license": "MIT",
+        "name": "Environmental Visual Enhancements Redux",
+        "recommends": [
+          {
+            "name": "EnvironmentalVisualEnhancements-Config"
+          }
+        ],
+        "release_date": "2022-09-09T20:24:26.89565Z",
+        "resources": {
+          "bugtracker": "https://github.com/LGhassen/EnvironmentalVisualEnhancements/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-111x-eve-redux-performance-enhanced-eve-build-v11121-31012021/",
+          "remote-avc": "https://github.com/LGhassen/EnvironmentalVisualEnhancements/raw/master/ContentEVE/GameData/EnvironmentalVisualEnhancements/EnvironmentalVisualEnhancements.version",
+          "repository": "https://github.com/LGhassen/EnvironmentalVisualEnhancements",
+          "spacedock": "https://spacedock.info/mod/2631/Environmental%20Visual%20Enhancements%20Redux"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "graphics"
+        ],
+        "version": "3:1.11.7.1"
+      },
+      "version": "3:1.11.7.1"
+    },
+    "EnvironmentalVisualEnhancements-HR": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Default configuration for EVE",
+        "author": [
+          "rbray89",
+          "WazWaz"
+        ],
+        "conflicts": [
+          {
+            "name": "EnvironmentalVisualEnhancements-Config"
+          },
+          {
+            "name": "EnvironmentalVisualEnhancements-Config-stock"
+          }
+        ],
+        "depends": [
+          {
+            "name": "EnvironmentalVisualEnhancements"
+          }
+        ],
+        "download": "https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2.2-1/EnvironmentalVisualEnhancements-Configs-1.2.2.1.zip",
+        "download_hash": {
+          "sha1": "831EB77B86AE2A652A6B18B3B0DFCDF6DFC69374",
+          "sha256": "D4CB6F9EC08ABAE876E2CA8EBA7B6159213EBD6FE612C138ED5B5E91325CFD84"
+        },
+        "download_size": 61435120,
+        "identifier": "EnvironmentalVisualEnhancements-HR",
+        "install": [
+          {
+            "file": "GameData/BoulderCo"
+          }
+        ],
+        "install_size": 71607652,
+        "license": "MIT",
+        "name": "EVE - Stock Planet Configs",
+        "provides": [
+          "EnvironmentalVisualEnhancements-Config",
+          "EnvironmentalVisualEnhancements-Config-stock"
+        ],
+        "release_date": "2017-04-10T00:17:57Z",
+        "resources": {
+          "bugtracker": "https://github.com/WazWaz/EnvironmentalVisualEnhancements/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
+          "repository": "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
+        },
+        "spec_version": "1",
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "2:EVE-1.2.2-1"
+      },
+      "version": "2:EVE-1.2.2-1"
+    },
+    "FMRSContinued": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "FMRS lets you jump back and forth in time.  It generates save points after separating controllable probes, ship, landers, ...",
+        "author": "linuxgurugamer",
+        "conflicts": [
+          {
+            "name": "FMRS"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "RecoveryController"
+          },
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1251/Flight%20Manager%20for%20Reusable%20Stages%20(FMRS)%20Continued/download/1.2.9.5",
+        "download_hash": {
+          "sha1": "75C1C311EC435356DE3295BF0CA12CE7FCA442D7",
+          "sha256": "A735EA1B1B03D93B63FC966B24B8926C097F62A4C219D1B27161B1C42FD73DAC"
+        },
+        "download_size": 107121,
+        "identifier": "FMRSContinued",
+        "install": [
+          {
+            "find": "FMRS"
+          }
+        ],
+        "install_size": 311064,
+        "ksp_version_max": "1.12.9",
+        "ksp_version_min": "1.8.0",
+        "license": "MIT",
+        "localizations": [
+          "en-us",
+          "zh-cn"
+        ],
+        "name": "Flight Manager for Reusable Stages (FMRS) Continued",
+        "provides": [
+          "FMRS"
+        ],
+        "release_date": "2023-06-15T23:11:27.261952Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FMRS/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157214-12-flight",
+          "remote-avc": "http://ksp.spacetux.net/avc/FMRS",
+          "repository": "https://github.com/linuxgurugamer/FMRS",
+          "spacedock": "https://spacedock.info/mod/1251/Flight%20Manager%20for%20Reusable%20Stages%20(FMRS)%20Continued"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "1.2.9.5"
+      },
+      "version": "1.2.9.5"
+    },
+    "FilterExtensions": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1972/Filter%20Extensions/download/3.2.9",
+        "download_hash": {
+          "sha1": "7CFD672FA50143F1AB1D49621C8C16C9D2E03DCE",
+          "sha256": "526493C922BC1B22501B68348F796F66F8B82FCA3C957DE1997E87C939254D59"
+        },
+        "download_size": 763511,
+        "identifier": "FilterExtensions",
+        "install": [
+          {
+            "file": "GameData/000_FilterExtensions"
+          },
+          {
+            "file": "GameData/000_FilterExtensions_Configs",
+            "filter": [
+              "Default",
+              "StockRework"
+            ]
+          }
+        ],
+        "install_size": 2822128,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "Filter Extensions - Plugin",
+        "recommends": [
+          {
+            "name": "FilterExtensionsDefaultConfig"
+          },
+          {
+            "name": "MoarFEConfigs"
+          }
+        ],
+        "release_date": "2023-03-24T13:49:56.05729Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FilterExtension/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-14-filter-extensions-no-localization/",
+          "remote-avc": "http://ksp.spacetux.net/avc/FilterExtension",
+          "repository": "https://github.com/linuxgurugamer/FilterExtension",
+          "spacedock": "https://spacedock.info/mod/1972/Filter%20Extensions"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience",
+          "editor"
+        ],
+        "version": "3.2.9"
+      },
+      "version": "3.2.9"
+    },
+    "FinalFrontier": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "kerbal individual merits",
+        "author": "Nereid",
+        "download": "https://spacedock.info/mod/580/Final%20Frontier/download/1.10.0-3485",
+        "download_hash": {
+          "sha1": "780C03A531C51A3A162187FB486E99FDC1DC3AD8",
+          "sha256": "34D23A341EDF6875ED4385EB0EDEDF4C9E191544E65642A9F6BA0879426E10A0"
+        },
+        "download_size": 1862797,
+        "identifier": "FinalFrontier",
+        "install": [
+          {
+            "filter": "Source",
+            "find": "FinalFrontier",
+            "install_to": "GameData/Nereid"
+          }
+        ],
+        "install_size": 1797471,
+        "ksp_version": "1.10.0",
+        "license": "BSD-2-clause",
+        "name": "Final Frontier",
+        "release_date": "2020-07-06T11:22:41.210236Z",
+        "resources": {
+          "bugtracker": "https://github.com/Nereid42/FinalFrontier/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/61065-110-final-frontier-kerbal-individual-merits-102-2131/&page=1",
+          "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=59",
+          "repository": "https://github.com/Nereid42/FinalFrontier",
+          "spacedock": "https://spacedock.info/mod/580/Final%20Frontier"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "crewed"
+        ],
+        "version": "1.10.0-3485"
+      },
+      "version": "1.10.0-3485"
+    },
+    "ForScienceUpdated": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "ForScience! is an autopilot for running, collecting and resetting experiments.",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/3010/ForScience!/download/1.6.0",
+        "download_hash": {
+          "sha1": "147135692D8A43532414E7E403AFED4E27DAE479",
+          "sha256": "B32FE5CBC3E5E15463FB1F59C2BC41CF345C3E17119511C944AAB47FFAAB35DE"
+        },
+        "download_size": 12457,
+        "identifier": "ForScienceUpdated",
+        "install": [
+          {
+            "find": "ForScience"
+          }
+        ],
+        "install_size": 21463,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-SA-4.0",
+        "name": "ForScience!",
+        "release_date": "2022-04-07T02:57:18.185062Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207612-112x-forscience-your-science-autopilot-under-construction/",
+          "remote-avc": "http://ksp.spacetux.net/avc/ForScience",
+          "spacedock": "https://spacedock.info/mod/3010/ForScience!"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "1.6.0"
+      },
+      "version": "1.6.0"
+    },
+    "FreeIva": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Get out of your seat in IVA and float around your ship",
+        "author": [
+          "pizzaoverhead",
+          "Icecovery",
+          "JonnyOThan"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/3151/FreeIva/download/0.2.18.4",
+        "download_hash": {
+          "sha1": "D9DF5A3A41A4CDE61E3921F5E028ED97A21A38FE",
+          "sha256": "AAF185BA5E5753F2B7D2C9D0F17BD2B8F94866FA547055C0EC4CD170EC8223DA"
+        },
+        "download_size": 21988545,
+        "identifier": "FreeIva",
+        "install_size": 31757142,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-2.0",
+        "localizations": [
+          "en-us",
+          "fr-fr",
+          "is-is",
+          "nb-no",
+          "nl-nl",
+          "ru",
+          "sv-se",
+          "tr-tr",
+          "zh-cn"
+        ],
+        "name": "FreeIva",
+        "recommends": [
+          {
+            "name": "ThroughTheEyesOfaKerbal"
+          },
+          {
+            "name": "Reviva"
+          },
+          {
+            "name": "B9PartSwitch"
+          },
+          {
+            "name": "CommunityCategoryKit"
+          }
+        ],
+        "release_date": "2024-03-03T16:10:07.607677Z",
+        "resources": {
+          "bugtracker": "https://github.com/FirstPersonKSP/FreeIva/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/210548-112-freeiva/",
+          "remote-avc": "https://github.com/pizzaoverhead/FreeIva/raw/main/GameData/FreeIva/FreeIva.version",
+          "repository": "https://github.com/FirstPersonKSP/FreeIva",
+          "spacedock": "https://spacedock.info/mod/3151/FreeIva"
+        },
+        "spec_version": "v1.18",
+        "suggests": [
+          {
+            "name": "RasterPropMonitor"
+          },
+          {
+            "name": "DE-IVAExtension"
+          },
+          {
+            "name": "AvionicsSystems"
+          }
+        ],
+        "supports": [
+          {
+            "name": "PlanetsideExplorationTechnologies"
+          },
+          {
+            "name": "StationPartsExpansionRedux-IVAs"
+          },
+          {
+            "name": "Buffalo2"
+          },
+          {
+            "name": "KerbalPlanetaryBaseSystems"
+          },
+          {
+            "name": "Kerbalism-Config-Default"
+          },
+          {
+            "name": "Mk2Expansion"
+          },
+          {
+            "name": "Mk3Expansion"
+          },
+          {
+            "name": "NearFutureSpacecraft"
+          },
+          {
+            "name": "ArtemisConstructionKit"
+          },
+          {
+            "name": "ShuttleOrbiterConstructionKit"
+          },
+          {
+            "name": "MarkIVSpaceplaneSystem"
+          },
+          {
+            "name": "B9"
+          },
+          {
+            "name": "UniversalStorage2"
+          },
+          {
+            "name": "ALCOR"
+          },
+          {
+            "name": "ProbeControlRoomRecontrolled"
+          },
+          {
+            "name": "HabTech2"
+          },
+          {
+            "name": "FelineUtilityRovers"
+          },
+          {
+            "name": "NewTantares"
+          },
+          {
+            "name": "Mk3MiniExpansionPack"
+          },
+          {
+            "name": "StarilexMk1NeedleIVA"
+          },
+          {
+            "name": "NeistAirReupdated"
+          },
+          {
+            "name": "AirplanePlus"
+          },
+          {
+            "name": "SXTContinued"
+          },
+          {
+            "name": "Kerbonov"
+          },
+          {
+            "name": "OPTSpacePlaneMain"
+          },
+          {
+            "name": "NearFutureConstruction"
+          },
+          {
+            "name": "ColdWarAerospace"
+          },
+          {
+            "name": "TundraExploration"
+          },
+          {
+            "name": "PrakasaAeroworks"
+          },
+          {
+            "name": "ExplorationRoverSystembyASET"
+          },
+          {
+            "name": "KeridianDynamicsVesselAssembly"
+          },
+          {
+            "name": "TheMartianforKSP"
+          },
+          {
+            "name": "MalemuteRover"
+          },
+          {
+            "name": "Heisenberg"
+          },
+          {
+            "name": "DeepFreeze"
+          },
+          {
+            "name": "NearFutureLaunchVehicles"
+          },
+          {
+            "name": "TheLonesomeRobotsCollection"
+          },
+          {
+            "name": "Pathfinder"
+          },
+          {
+            "name": "ShuttleLiftingBodyCormorantAeronology"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "crewed",
+          "first-person"
+        ],
+        "version": "0.2.18.4"
+      },
+      "version": "0.2.18.4"
+    },
+    "GRAPES": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Provide a means to purchase fuel in orbit",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2790/GRAPES/download/GRAPES",
+        "download_hash": {
+          "sha1": "0E16BF3962F94916362A08A73355127495F5FE1E",
+          "sha256": "6BD2A23341436DE44C93B65B69C8F6C85F9A20F78831B75B18B63B18A72F7706"
+        },
+        "download_size": 162523,
+        "identifier": "GRAPES",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 3270016,
+        "ksp_version_max": "1.12.1",
+        "ksp_version_min": "1.11.2",
+        "license": "CC-BY-NC-SA",
+        "name": "Gas Repairs And Probably Expensive Snacks",
+        "release_date": "2021-07-12T00:27:54.457143Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FruitKocktail/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/GasRepairsAndProbablyExpensiveSnacks",
+          "repository": "https://github.com/linuxgurugamer/FruitKocktail",
+          "spacedock": "https://spacedock.info/mod/2790/GRAPES"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "parts",
+          "resources"
+        ],
+        "version": "1:GRAPES"
+      },
+      "version": "1:GRAPES"
+    },
+    "Harmony2": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "A library for patching, replacing and decorating .NET and Mono methods during runtime",
+        "author": [
+          "Andreas Pardeike",
+          "gotmachine"
+        ],
+        "conflicts": [
+          {
+            "name": "Harmony1"
+          }
+        ],
+        "download": "https://github.com/KSPModdingLibs/HarmonyKSP/releases/download/2.2.1.0/HarmonyKSP_2.2.1.0_for_KSP1.8%2B.zip",
+        "download_hash": {
+          "sha1": "D3A2287E1CD2AAE956589EFC16F2605452028612",
+          "sha256": "51D63F6739EAF22F12CE9456ADACE54385520C67CC13735D5300D5AA15C79476"
+        },
+        "download_size": 359801,
+        "identifier": "Harmony2",
+        "install": [
+          {
+            "find": "000_Harmony"
+          }
+        ],
+        "install_size": 942253,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.0",
+        "license": "MIT",
+        "name": "Harmony 2",
+        "release_date": "2022-05-15T15:42:53Z",
+        "resources": {
+          "bugtracker": "https://github.com/KSPModdingLibs/HarmonyKSP/issues",
+          "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/HarmonyKSP/main/GameData/000_Harmony/Harmony.version",
+          "repository": "https://github.com/KSPModdingLibs/HarmonyKSP"
+        },
+        "spec_version": "v1.26",
+        "tags": [
+          "library"
+        ],
+        "version": "2.2.1.0"
+      },
+      "version": "2.2.1.0"
+    },
+    "JanitorsCloset": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Get your parts list under control",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/944/The%20Janitor's%20Closet/download/0.3.8",
+        "download_hash": {
+          "sha1": "E315A668D86DCF53B1AFFB3F58EC6A002603A161",
+          "sha256": "F439F45D335E45F1A14A023A28CCFEC17E4800CCF8C4FEADA19A276DF132523B"
+        },
+        "download_size": 140733,
+        "identifier": "JanitorsCloset",
+        "install": [
+          {
+            "find": "JanitorsCloset"
+          }
+        ],
+        "install_size": 252847,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-NC-4.0",
+        "name": "The Janitor's Closet",
+        "recommends": [
+          {
+            "name": "FilterExtensions"
+          }
+        ],
+        "release_date": "2023-06-06T12:32:19.78468Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/JanitorsCloset/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/147463-end-your-parts-list-nightmare-introducing-the-janitors-closet/",
+          "remote-avc": "http://ksp.spacetux.net/avc/JanitorsCloset",
+          "repository": "https://github.com/linuxgurugamer/JanitorsCloset",
+          "spacedock": "https://spacedock.info/mod/944/The%20Janitor's%20Closet"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "0.3.8"
+      },
+      "version": "0.3.8"
+    },
+    "KRASH": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Simulation mod",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/302/KRASH%20-%20Kerbal%20Ramification%20Artifical%20Simulation%20Hub%20(simulation%20mod%20for%20KSP)/download/0.5.34",
+        "download_hash": {
+          "sha1": "A1259DFF1E12F4D94E575AC6548504F6708003EF",
+          "sha256": "BF1BEBF830C28DBEDE3A50FD665D4413D5267C0DC606C4443F3A1D437D728E8B"
+        },
+        "download_size": 93089,
+        "identifier": "KRASH",
+        "install": [
+          {
+            "find": "KRASH"
+          }
+        ],
+        "install_size": 221735,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "localizations": [
+          "en-us",
+          "zh-cn"
+        ],
+        "name": "KRASH - Kerbal Ramification Artifical Simulation Hub (simulation mod for KSP)",
+        "recommends": [
+          {
+            "name": "JanitorsCloset"
+          }
+        ],
+        "release_date": "2023-04-30T20:18:37.176102Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/KRASH/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133082-krash-kerbal-ramification-artifical-simulation-hub-simulation-mod-for-ksp/",
+          "remote-avc": "http://ksp.spacetux.net/avc/KRASH",
+          "repository": "https://github.com/linuxgurugamer/KRASH",
+          "spacedock": "https://spacedock.info/mod/302/KRASH%20-%20Kerbal%20Ramification%20Artifical%20Simulation%20Hub%20(simulation%20mod%20for%20KSP)"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "career"
+        ],
+        "version": "0.5.34"
+      },
+      "version": "0.5.34"
+    },
+    "KerbalEngineerRedux": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Reveals important statistics about your ship and its orbit during building and flight",
+        "author": [
+          "CYBUTEK",
+          "jrbudda"
+        ],
+        "download": "https://github.com/jrbudda/KerbalEngineer/releases/download/1.1.9.0/KerbalEngineer-1.1.9.0.zip",
+        "download_hash": {
+          "sha1": "D4BEB82ABB31322B5D28A1E00A56934DC33D9B79",
+          "sha256": "C4FDF980D050F2B6C9CB55A9DD3F91A3747700FB94FADDC508E55E19F0E8D975"
+        },
+        "download_size": 1819292,
+        "identifier": "KerbalEngineerRedux",
+        "install": [
+          {
+            "file": "KerbalEngineer"
+          }
+        ],
+        "install_size": 5020362,
+        "ksp_version_max": "1.12.9",
+        "ksp_version_min": "1.8.0",
+        "license": "GPL-3.0",
+        "name": "Kerbal Engineer Redux",
+        "release_date": "2021-06-27T19:41:09Z",
+        "release_status": "testing",
+        "resources": {
+          "bugtracker": "https://github.com/jrbudda/KerbalEngineer/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/17833-*",
+          "remote-avc": "https://raw.githubusercontent.com/jrbudda/KerbalEngineer/master/Output/KerbalEngineer/KerbalEngineer.version",
+          "repository": "https://github.com/jrbudda/KerbalEngineer"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "information"
+        ],
+        "version": "1.1.9.0"
+      },
+      "version": "1.1.9.0"
+    },
+    "KerbalImprovedSaveSystem": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "KISS is a small plugin for KSP that provides an improved \"Save game as...\" mechanic while in flight. KISS allows you to overwrite or create a variation of a previous quicksave without the need to memorize quicksave names and without having to type the full name every time!",
+        "author": "Aerospike",
+        "download": "https://spacedock.info/mod/583/Kerbal%20Improved%20Save%20System/download/2.4.2",
+        "download_hash": {
+          "sha1": "A00A334922A34BC5575CB9FEDFA7DCCB5FCC286A",
+          "sha256": "290547C5E67ED70E64FA6E9AD0E24E453FC66D2C80E225807F48B3DEF84E4D7C"
+        },
+        "download_size": 16420,
+        "identifier": "KerbalImprovedSaveSystem",
+        "install_size": 24252,
+        "ksp_version_max": "1.12.3",
+        "ksp_version_min": "1.9",
+        "license": "MIT",
+        "name": "Kerbal Improved Save System",
+        "release_date": "2020-06-04T20:33:56.214537Z",
+        "resources": {
+          "bugtracker": "https://github.com/KerbalSpike/KerbalImprovedSaveSystem/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138001-11-kiss-kerbal-improved-save-system/",
+          "repository": "https://github.com/KerbalSpike/KerbalImprovedSaveSystem",
+          "spacedock": "https://spacedock.info/mod/583/Kerbal%20Improved%20Save%20System"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "v2.4.2"
+      },
+      "version": "v2.4.2"
+    },
+    "Kopernicus": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Allows users to replace the planetary system used by the game",
+        "author": [
+          "BryceSchroeder",
+          "Teknoman117",
+          "Thomas P.",
+          "NathanKell",
+          "KillAshley",
+          "Gravitasi",
+          "KCreator",
+          "Sigma88",
+          "R-T-B",
+          "prestja"
+        ],
+        "depends": [
+          {
+            "min_version": "2.8.0",
+            "name": "ModuleManager"
+          },
+          {
+            "min_version": "1.2.4.0",
+            "name": "ModularFlightIntegrator"
+          },
+          {
+            "name": "Harmony2"
+          }
+        ],
+        "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-204/Kopernicus-1.12.1-204.zip",
+        "download_hash": {
+          "sha1": "76F3FD21BC28E189EF22945C04902319A91C04BA",
+          "sha256": "EDE2DBBC9CC4635663D2DE888EE8B96AA84DABF0A7FB33D3D22861D291F0F08A"
+        },
+        "download_size": 1066494,
+        "identifier": "Kopernicus",
+        "install_size": 1420400,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "LGPL-3.0",
+        "localizations": [
+          "en-us",
+          "es-es",
+          "it-it",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "Kopernicus Planetary System Modifier",
+        "release_date": "2024-06-01T16:51:51Z",
+        "release_status": "development",
+        "resources": {
+          "bugtracker": "https://github.com/Kopernicus/Kopernicus/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200143-*",
+          "remote-avc": "https://raw.githubusercontent.com/Kopernicus/Kopernicus/master/build/KSP19PLUS/GameData/Kopernicus/Plugins/Kopernicus.version",
+          "repository": "https://github.com/Kopernicus/Kopernicus"
+        },
+        "spec_version": "v1.4",
+        "suggests": [
+          {
+            "name": "KittopiaTech"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "2:release-1.12.1-204"
+      },
+      "version": "2:release-1.12.1-204"
+    },
+    "LIME": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "This changes the time that Sunrise is defined (an hour later than stock)",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2789/LIME/download/1.1.3.1",
+        "download_hash": {
+          "sha1": "99999D4876EED7C8A41D2CE943CAA2FFCAD1A98D",
+          "sha256": "5BB2B5882DA0370B76B2C7036D2263F7F6144C4CEBD1F0643D7731325B31634A"
+        },
+        "download_size": 24901,
+        "identifier": "LIME",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 30727,
+        "ksp_version_max": "1.12.1",
+        "ksp_version_min": "1.11.2",
+        "license": "MIT",
+        "name": "Lie In Must Ensue",
+        "release_date": "2021-07-12T00:27:36.08757Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FruitKocktail/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/LieInMustEnsue",
+          "repository": "https://github.com/linuxgurugamer/FruitKocktail",
+          "spacedock": "https://spacedock.info/mod/2789/LIME"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "1:1.1.3.1"
+      },
+      "version": "1:1.1.3.1"
+    },
+    "MANGO": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "rebalance the transmission of science data",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2788/MANGO/download/1.1.1.1",
+        "download_hash": {
+          "sha1": "0B6E64FC051B8951EDE7013275C6422AA9E4034B",
+          "sha256": "A50ABEDD6C767A99BA588D976F3D72C2D453631C4AB2646148522BB624F356DC"
+        },
+        "download_size": 9741,
+        "identifier": "MANGO",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 16369,
+        "ksp_version_max": "1.12.1",
+        "ksp_version_min": "1.11.2",
+        "license": "MIT",
+        "name": "My Antennae Never Go Offline",
+        "release_date": "2021-07-12T00:27:16.030703Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FruitKocktail/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/MyAntennaeNeverGoOffline",
+          "repository": "https://github.com/linuxgurugamer/FruitKocktail",
+          "spacedock": "https://spacedock.info/mod/2788/MANGO"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "comms"
+        ],
+        "version": "1:1.1.1.1"
+      },
+      "version": "1:1.1.1.1"
+    },
+    "MechJeb2": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Anatid Robotics and Multiversal Mechatronics proudly presents the first flight assistant autopilot: MechJeb",
+        "author": "Sarbian",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://ksp.sarbian.com/jenkins/job/MechJeb2-Release/42/artifact/MechJeb2-2.14.3.0.zip",
+        "download_hash": {
+          "sha1": "65D2DF5EBCECE9173CFC04913F25074685E3F644",
+          "sha256": "56E9BEDDE34AAF7DB82F1A875C8B7F61763D81FBAC5D3A100CEE238606752BD0"
+        },
+        "download_size": 4007205,
+        "identifier": "MechJeb2",
+        "install": [
+          {
+            "find": "MechJeb2"
+          }
+        ],
+        "install_size": 11298459,
+        "ksp_version": "1.12",
+        "license": "GPL-3.0",
+        "localizations": [
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "MechJeb 2",
+        "release_date": "2023-03-28T19:15:29.342Z",
+        "resources": {
+          "ci": "https://ksp.sarbian.com/jenkins/job/MechJeb2-Release/",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*",
+          "repository": "https://github.com/MuMech/MechJeb2"
+        },
+        "spec_version": "v1.16",
+        "tags": [
+          "plugin",
+          "information",
+          "control"
+        ],
+        "version": "2.14.3.0"
+      },
+      "version": "2.14.3.0"
+    },
+    "ModularFlightIntegrator": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "This is an amazing addon that will Modularly Integrate your Flight Models.",
+        "author": "Sarbian",
+        "download": "https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/40/artifact/ModularFlightIntegrator-1.2.10.0.zip",
+        "download_hash": {
+          "sha1": "1F08C9F0D3AAC2B0A0A945B013FD10992E5CA064",
+          "sha256": "0134C0950298E8703F27809F918FC57B6F9F7202A9AD988DECBF1AC924FDD9E7"
+        },
+        "download_size": 9488,
+        "identifier": "ModularFlightIntegrator",
+        "install": [
+          {
+            "find": "ModularFlightIntegrator"
+          }
+        ],
+        "install_size": 24261,
+        "ksp_version_max": "1.12.90",
+        "ksp_version_min": "1.11.0",
+        "license": "MIT",
+        "name": "ModularFlightIntegrator",
+        "release_date": "2021-08-09T15:12:42.251Z",
+        "resources": {
+          "ci": "https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106369-*",
+          "remote-avc": "https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/lastSuccessfulBuild/artifact/ModularFlightIntegrator/ModularFlightIntegrator.version",
+          "repository": "https://github.com/sarbian/ModularFlightIntegrator"
+        },
+        "spec_version": "v1.16",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "1.2.10.0"
+      },
+      "version": "1.2.10.0"
+    },
+    "ModuleManager": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Modify KSP configs without conflict",
+        "author": [
+          "ialdabaoth",
+          "Sarbian",
+          "Blowfish"
+        ],
+        "download": "https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager-4.2.3.zip",
+        "download_hash": {
+          "sha1": "E7424548915B3C229DCBA445B40BAD92E21204B4",
+          "sha256": "9109BCED44DE83AA0CF1540FAF09D7F6FEA2615145B3AE7C4266DAC21F5245D3"
+        },
+        "download_size": 63073,
+        "identifier": "ModuleManager",
+        "install": [
+          {
+            "find_matches_files": true,
+            "find_regexp": "ModuleManager.*\\.dll$"
+          }
+        ],
+        "install_size": 141824,
+        "ksp_version_max": "1.12",
+        "ksp_version_min": "1.8",
+        "license": "CC-BY-SA",
+        "name": "Module Manager",
+        "release_date": "2023-07-03T18:01:41.446Z",
+        "resources": {
+          "ci": "https://ksp.sarbian.com/jenkins/job/ModuleManager/",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*",
+          "manual": "https://github.com/sarbian/ModuleManager/wiki/Module-Manager-Syntax",
+          "repository": "https://github.com/sarbian/ModuleManager"
+        },
+        "spec_version": "v1.16",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "4.2.3"
+      },
+      "version": "4.2.3"
+    },
+    "OPMAllinOneKSPediaDeltaVMap": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A single page added to the KSPedia. It shows an updated community Delta-V map of the planets added by the Outer Planets Mod + core system",
+        "author": "Llamageddon",
+        "download": "https://spacedock.info/mod/3384/OPM%20All-in-One%20KSPedia%20Delta-V%20Map%20/download/1.0.1",
+        "download_hash": {
+          "sha1": "A47748472B82806803A37C700793158DF9C47776",
+          "sha256": "BE2F00BB2A665FF7FE7BA97185425DC392A09C0E7EBC9C42A2C70A76780EC4A7"
+        },
+        "download_size": 220153,
+        "identifier": "OPMAllinOneKSPediaDeltaVMap",
+        "install": [
+          {
+            "find": "GameData/OPM_AIO_DVMAP"
+          }
+        ],
+        "install_size": 219427,
+        "ksp_version": "1.12.5",
+        "license": "CC-BY-NC-SA",
+        "name": "OPM All-in-One KSPedia Delta-V Map ",
+        "release_date": "2023-05-08T11:17:54.03323Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/87463-173-community-delta-v-map-27/&do=findComment&comment=4281061",
+          "spacedock": "https://spacedock.info/mod/3384/OPM%20All-in-One%20KSPedia%20Delta-V%20Map%20"
+        },
+        "spec_version": "v1.18",
+        "supports": [
+          {
+            "name": "OuterPlanetsMod"
+          }
+        ],
+        "tags": [
+          "config",
+          "information"
+        ],
+        "version": "1.0.1"
+      },
+      "version": "1.0.1"
+    },
+    "ORANGE": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Adds a button to command modules to generate a random name",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2787/ORANGE/download/1.0.3.2",
+        "download_hash": {
+          "sha1": "104230FA50D27F97E0D309B49A2FB7737C090318",
+          "sha256": "1BEC795B65FF5070192FC4F8015F07D07C5FB6528585E4386F5D61CDA5A7B108"
+        },
+        "download_size": 13752,
+        "identifier": "ORANGE",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 21832,
+        "ksp_version_max": "1.12.1",
+        "ksp_version_min": "1.11.2",
+        "license": "MIT",
+        "name": "Oh Really, Another Name Generating Endeavour?",
+        "release_date": "2021-07-12T00:27:00.678096Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FruitKocktail/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/OhReallyAnotherNamingEndeavour",
+          "repository": "https://github.com/linuxgurugamer/FruitKocktail",
+          "spacedock": "https://spacedock.info/mod/2787/ORANGE"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1:1.0.3.2"
+      },
+      "version": "1:1.0.3.2"
+    },
+    "PEAR": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Lets solar panels, radiators and antennae all work together",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2786/PEAR/download/1.0.2.1",
+        "download_hash": {
+          "sha1": "5202309E82AE2A2B59126CAE960EFDC8A906DA3B",
+          "sha256": "99784D6448E604317C8F22C66C1626266A8BE16B0E5CC15489E48FDCD96E9F57"
+        },
+        "download_size": 10883,
+        "identifier": "PEAR",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 17661,
+        "ksp_version_max": "1.12.1",
+        "ksp_version_min": "1.11.2",
+        "license": "MIT",
+        "name": "Programatic Extension And Retraction",
+        "release_date": "2021-07-12T00:26:13.901219Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FruitKocktail/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/ProgramaticExtensionAndRetraction",
+          "repository": "https://github.com/linuxgurugamer/FruitKocktail",
+          "spacedock": "https://spacedock.info/mod/2786/PEAR"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1:1.0.2.1"
+      },
+      "version": "1:1.0.2.1"
+    },
+    "PLUM": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Calculates approximate landing velocity for current parachutes on board",
+        "author": [
+          "FruitGoose",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2793/PLUM/download/1.1.2",
+        "download_hash": {
+          "sha1": "916AB0A1A9A38C79896339C2E492D7E9BB93F22F",
+          "sha256": "FFD6314CC6B1EF90E812309ED82A2E878DC8B41F95075EBF65F741125E4DA2C4"
+        },
+        "download_size": 37112,
+        "identifier": "PLUM",
+        "install": [
+          {
+            "find": "FruitKocktail"
+          }
+        ],
+        "install_size": 59334,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.11.2",
+        "license": "MIT",
+        "name": "Parachutes? Let's Use Maths!",
+        "release_date": "2024-01-14T21:46:47.834111Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202889-1112-fruitkocktail-a-collection-of-mini-life-improvement-mods-with-fruit-based-acronyms-as-names-full-release/",
+          "remote-avc": "http://ksp.spacetux.net/avc/ParachutesLetsUseMaths",
+          "repository": "https://github.com/linuxgurugamer/ParachutesLetsUseMaths",
+          "spacedock": "https://spacedock.info/mod/2793/PLUM"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience",
+          "information"
+        ],
+        "version": "1:1.1.2"
+      },
+      "version": "1:1.1.2"
+    },
+    "Parallax": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A PBR tessellation shader for planetary textures",
+        "author": "Linx",
+        "conflicts": [
+          {
+            "max_version": "1.3.1",
+            "name": "Parallax-StockTextures"
+          }
+        ],
+        "depends": [
+          {
+            "name": "Kopernicus"
+          },
+          {
+            "name": "Parallax-Textures"
+          },
+          {
+            "name": "Parallax-Scatter-Textures"
+          }
+        ],
+        "download": "https://github.com/Gameslinx/Tessellation/releases/download/2.0.6/Parallax-2.0.6.zip",
+        "download_hash": {
+          "sha1": "F0EA621C754E23D2A29428624486A1F6CC7825FE",
+          "sha256": "0350ED8F382AD4A9AB6F59FEB4BCED4F8B60CE36742471FF9668F4D73D00740C"
+        },
+        "download_size": 4175419,
+        "identifier": "Parallax",
+        "install": [
+          {
+            "find": "Parallax"
+          }
+        ],
+        "install_size": 4444460,
+        "ksp_version_max": "1.12",
+        "ksp_version_min": "1.11",
+        "license": "CC-BY-NC-ND-4.0",
+        "name": "Parallax",
+        "recommends": [
+          {
+            "name": "Scatterer"
+          }
+        ],
+        "release_date": "2022-12-17T19:11:26Z",
+        "resources": {
+          "bugtracker": "https://github.com/Gameslinx/Tessellation/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*",
+          "repository": "https://github.com/Gameslinx/Tessellation"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "library",
+          "graphics"
+        ],
+        "version": "2.0.6"
+      },
+      "version": "2.0.6"
+    },
+    "Parallax-StockScatterTextures": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Parallax textures for the scatters on the stock planets",
+        "author": "Linx",
+        "conflicts": [
+          {
+            "name": "Parallax-Scatter-Textures"
+          },
+          {
+            "max_version": "1.3.1",
+            "name": "Parallax"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "Parallax-StockTextures"
+          },
+          {
+            "name": "Parallax"
+          }
+        ],
+        "download": "https://github.com/Gameslinx/Tessellation/releases/download/2.0.1/Parallax_ScatterTextures-2.0.1.zip",
+        "download_hash": {
+          "sha1": "EDAE6C681967126AF4963987D88888D10E455CCB",
+          "sha256": "B8D9EA5CE790DE20667D20335638273A8B4F293421D7824C7B689CEE35C4A701"
+        },
+        "download_size": 1184382887,
+        "identifier": "Parallax-StockScatterTextures",
+        "install": [
+          {
+            "find": "Parallax_StockTextures"
+          }
+        ],
+        "install_size": 2049457315,
+        "license": "CC-BY-NC-ND-4.0",
+        "name": "Parallax - Stock Scatter Textures",
+        "provides": [
+          "Parallax-Scatter-Textures"
+        ],
+        "release_date": "2022-09-13T22:49:10Z",
+        "resources": {
+          "bugtracker": "https://github.com/Gameslinx/Tessellation/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*",
+          "repository": "https://github.com/Gameslinx/Tessellation"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "2.0.1"
+      },
+      "version": "2.0.1"
+    },
+    "Parallax-StockTextures": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Parallax textures for the stock planets",
+        "author": "Linx",
+        "conflicts": [
+          {
+            "name": "Parallax-Textures"
+          },
+          {
+            "max_version": "1.3.1",
+            "name": "Parallax"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "Parallax-StockScatterTextures"
+          },
+          {
+            "name": "Parallax"
+          }
+        ],
+        "download": "https://github.com/Gameslinx/Tessellation/releases/download/2.0.0/Parallax_StockTextures-2.0.0.zip",
+        "download_hash": {
+          "sha1": "5F66A310F0681427479D8797266AD4706097A21F",
+          "sha256": "F43B1AC9175EEBC826F864E8C09D762BFD89B1CC0E461C370951945DD4369A87"
+        },
+        "download_size": 1904746108,
+        "identifier": "Parallax-StockTextures",
+        "install": [
+          {
+            "find": "Parallax_StockTextures"
+          }
+        ],
+        "install_size": 2379035260,
+        "license": "CC-BY-NC-ND-4.0",
+        "name": "Parallax - Stock Planet Textures",
+        "provides": [
+          "Parallax-Textures"
+        ],
+        "release_date": "2022-09-05T21:15:23Z",
+        "resources": {
+          "bugtracker": "https://github.com/Gameslinx/Tessellation/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*",
+          "repository": "https://github.com/Gameslinx/Tessellation"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "2.0.0"
+      },
+      "version": "2.0.0"
+    },
+    "PerSaveScreenshots": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "KSP mod that saves screenshots to sepearate folders based on the name of your save game",
+        "author": "DeltaDizzy",
+        "download": "https://github.com/DeltaDizzy/PerSaveScreenshots/releases/download/1.0.1/PerSaveScreenshots-1.0.1.zip",
+        "download_hash": {
+          "sha1": "9AC0B5B14C487FFDC0F31C276B7849F5024062FE",
+          "sha256": "EB72B776C48F1CC0DF5D5735683FC1559F7969A7EB1CEF210911C2F9CB9E9F15"
+        },
+        "download_size": 4926,
+        "identifier": "PerSaveScreenshots",
+        "install": [
+          {
+            "file": "GameData/PerSaveScreenshots.dll",
+            "install_to": "GameData/PerSaveScreenshots"
+          }
+        ],
+        "install_size": 7168,
+        "ksp_version": "1.12",
+        "license": "MIT",
+        "name": "Per Save Screenshots",
+        "release_date": "2023-09-20T02:31:56Z",
+        "resources": {
+          "bugtracker": "https://github.com/DeltaDizzy/PerSaveScreenshots/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/topic/219192-*",
+          "repository": "https://github.com/DeltaDizzy/PerSaveScreenshots"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1.0.1"
+      },
+      "version": "1.0.1"
+    },
+    "PlanetShine": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+        "author": [
+          "valerian",
+          "PapaJoesSoup"
+        ],
+        "depends": [
+          {
+            "name": "PlanetShine-Config"
+          }
+        ],
+        "download": "https://github.com/PapaJoesSoup/ksp-planetshine/releases/download/0.2.6.6/PlanetShine.0.2.6.6_02222022.zip",
+        "download_hash": {
+          "sha1": "F39371AAB511BA2E918E32A1FDD713217B2D8B3A",
+          "sha256": "7A4DB70261100B5509372BF5EFA66343BA113D82918273D50BE8747D0335E42B"
+        },
+        "download_size": 25923,
+        "identifier": "PlanetShine",
+        "install": [
+          {
+            "filter": "Config",
+            "find": "GameData/PlanetShine"
+          }
+        ],
+        "install_size": 53794,
+        "ksp_version_max": "1.12.999",
+        "ksp_version_min": "1.8.0",
+        "license": "Apache-2.0",
+        "name": "PlanetShine",
+        "release_date": "2022-02-23T01:43:51Z",
+        "resources": {
+          "bugtracker": "https://github.com/PapaJoesSoup/ksp-planetshine/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173138-*",
+          "remote-avc": "https://github.com/papajoessoup/ksp-planetshine/raw/master/PlanetShine/Distribution/GameData/PlanetShine/Plugins/PlanetShine.version",
+          "repository": "https://github.com/PapaJoesSoup/ksp-planetshine"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "graphics"
+        ],
+        "version": "0.2.6.6"
+      },
+      "version": "0.2.6.6"
+    },
+    "PlanetShine-Config-Default": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+        "author": [
+          "valerian",
+          "PapaJoesSoup"
+        ],
+        "conflicts": [
+          {
+            "name": "PlanetShine-Config"
+          }
+        ],
+        "depends": [
+          {
+            "name": "PlanetShine"
+          }
+        ],
+        "download": "https://github.com/PapaJoesSoup/ksp-planetshine/releases/download/0.2.6.6/PlanetShine.0.2.6.6_02222022.zip",
+        "download_hash": {
+          "sha1": "F39371AAB511BA2E918E32A1FDD713217B2D8B3A",
+          "sha256": "7A4DB70261100B5509372BF5EFA66343BA113D82918273D50BE8747D0335E42B"
+        },
+        "download_size": 25923,
+        "identifier": "PlanetShine-Config-Default",
+        "install": [
+          {
+            "find": "GameData/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+          }
+        ],
+        "install_size": 3030,
+        "ksp_version_max": "1.12.999",
+        "ksp_version_min": "1.8.0",
+        "license": "Apache-2.0",
+        "name": "PlanetShine - Default configuration",
+        "provides": [
+          "PlanetShine-Config"
+        ],
+        "release_date": "2022-02-23T01:43:51Z",
+        "resources": {
+          "bugtracker": "https://github.com/PapaJoesSoup/ksp-planetshine/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173138-*",
+          "remote-avc": "https://github.com/papajoessoup/ksp-planetshine/raw/master/PlanetShine/Distribution/GameData/PlanetShine/Plugins/PlanetShine.version",
+          "repository": "https://github.com/PapaJoesSoup/ksp-planetshine"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "0.2.6.6"
+      },
+      "version": "0.2.6.6"
+    },
+    "PoodsCalmNebulaSkybox": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
+        "author": "Poodmund",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "any_of": [
+              {
+                "name": "TextureReplacer"
+              },
+              {
+                "name": "TextureReplacerReplaced"
+              },
+              {
+                "name": "SigmaReplacements-Skybox"
+              },
+              {
+                "name": "DiRT"
+              }
+            ]
+          }
+        ],
+        "download": "https://spacedock.info/mod/924/Pood%27s%20Calm%20Nebula%20Skybox/download/v1.3.0",
+        "download_hash": {
+          "sha1": "7D3B00FF1E08D1BC91CF7E7533A6DA4AD095B353",
+          "sha256": "AA8E7C8A8A600ADFC29B2D0BD954169D060BFD75E08FB0DE4227BA7950E19FBB"
+        },
+        "download_size": 19291972,
+        "identifier": "PoodsCalmNebulaSkybox",
+        "install": [
+          {
+            "file": "GameData/PoodsSkyboxes"
+          }
+        ],
+        "license": "CC-BY-NC-ND-4.0",
+        "name": "Pood's Calm Nebula Skybox",
+        "provides": [
+          "Skybox"
+        ],
+        "release_date": "2019-01-17T21:28:08.497372Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-131-poods-skyboxes-v120-21st-jan-2018/",
+          "spacedock": "https://spacedock.info/mod/924/Pood's%20Calm%20Nebula%20Skybox"
+        },
+        "spec_version": "v1.26",
+        "suggests": [
+          {
+            "name": "DistantObject"
+          }
+        ],
+        "tags": [
+          "config",
+          "graphics"
+        ],
+        "version": "v1.3.0"
+      },
+      "version": "v1.3.0"
+    },
+    "RCSBuildAid": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "This is something I made for placing RCS thrusters in the right positions in the first try without having to go back and forth between the VAB and the hacked gravity launchpad.  Features: Display thrust and torque forces caused by RCS or engines. Delta V readout for RCS. Dry center of mass marker. Average center of mass marker. Ability to resize editor's overlay markers. Display total mass of resources.",
+        "author": "m4v",
+        "conflicts": [
+          {
+            "name": "RCSBuildAidCont"
+          }
+        ],
+        "download": "https://github.com/m4v/RCSBuildAid/releases/download/v1.0.6/RCSBuildAid_v1.0.6.zip",
+        "download_hash": {
+          "sha1": "89FA3330E7E66F506A1E15222E222366B12927B5",
+          "sha256": "1BE6EFCD87BED6B91D125C1B2C570B3E412DE39291227E8D4D2F5D77B707A73A"
+        },
+        "download_size": 77844,
+        "identifier": "RCSBuildAid",
+        "install": [
+          {
+            "file": "RCSBuildAid",
+            "filter": "Sources"
+          }
+        ],
+        "install_size": 208469,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.11.0",
+        "license": "LGPL-3.0",
+        "name": "RCS Build Aid",
+        "release_date": "2021-01-31T22:38:45Z",
+        "resources": {
+          "bugtracker": "https://github.com/m4v/RCSBuildAid/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/33124-*/",
+          "manual": "https://github.com/m4v/RCSBuildAid/blob/master/README.adoc",
+          "remote-avc": "https://raw.githubusercontent.com/m4v/RCSBuildAid/master/RCSBuildAid.version",
+          "repository": "https://github.com/m4v/RCSBuildAid"
+        },
+        "spec_version": "v1.4",
+        "supports": [
+          {
+            "name": "KSP-AVC"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "information"
+        ],
+        "version": "v1.0.6"
+      },
+      "version": "v1.0.6"
+    },
+    "RasterPropMonitor": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Modifies stock and some modded IVAs with functional props",
+        "author": [
+          "Mihara",
+          "MOARdV",
+          "JonnyOThan"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "RasterPropMonitor-Core"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2534/RasterPropMonitor/download/0.31.13.4",
+        "download_hash": {
+          "sha1": "9C7B8A58DC9C2C027D4FEBECCBD4B177BAC206FC",
+          "sha256": "1610B0C0BA81BD0D051D645DDF7109F238F7216B3F99379D30F46D64964D1D7A"
+        },
+        "download_size": 1292868,
+        "identifier": "RasterPropMonitor",
+        "install": [
+          {
+            "filter": [
+              "RasterPropMonitor",
+              "BasicMFD",
+              "README.md",
+              "LICENSE.md",
+              "Agencies"
+            ],
+            "find": "JSI"
+          }
+        ],
+        "install_size": 157986,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-3.0",
+        "name": "RasterPropMonitor",
+        "recommends": [
+          {
+            "name": "DE-IVAExtension"
+          },
+          {
+            "name": "FreeIva"
+          }
+        ],
+        "release_date": "2023-11-10T21:45:20.320762Z",
+        "resources": {
+          "bugtracker": "https://github.com/FirstPersonKSP/RasterPropMonitor/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-18x-110x-rasterpropmonitor-adopted/",
+          "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version",
+          "repository": "https://github.com/FirstPersonKSP/RasterPropMonitor",
+          "spacedock": "https://spacedock.info/mod/2534/RasterPropMonitor"
+        },
+        "spec_version": "v1.4",
+        "suggests": [
+          {
+            "name": "Astrogator"
+          },
+          {
+            "name": "DockingPortAlignmentIndicator"
+          },
+          {
+            "name": "NavUtilities"
+          },
+          {
+            "name": "SCANsat"
+          },
+          {
+            "name": "VesselView"
+          },
+          {
+            "name": "ProbeControlRoomRecontrolled"
+          },
+          {
+            "name": "kOSPropMonitor"
+          },
+          {
+            "name": "Chatterer"
+          },
+          {
+            "name": "Reviva"
+          },
+          {
+            "name": "MechJeb2"
+          },
+          {
+            "name": "ASETProps"
+          },
+          {
+            "name": "ASETAvionics"
+          },
+          {
+            "name": "Mk1LanderCanIVAReplbyASET"
+          },
+          {
+            "name": "MK12PodIVAReplacementbyASET"
+          },
+          {
+            "name": "ALCORIVAPatch"
+          },
+          {
+            "name": "ThroughTheEyesOfaKerbal"
+          },
+          {
+            "name": "QuickIVA"
+          },
+          {
+            "name": "KSAIVAUpgrade"
+          }
+        ],
+        "tags": [
+          "config",
+          "crewed",
+          "first-person"
+        ],
+        "version": "1:v0.31.13.4"
+      },
+      "version": "1:v0.31.13.4"
+    },
+    "RasterPropMonitor-Core": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Plugin and props for use in IVAs",
+        "author": [
+          "Mihara",
+          "MOARdV",
+          "JonnyOThan"
+        ],
+        "comment": "This package contains the plugin, and the standard parts library.",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2534/RasterPropMonitor/download/0.31.13.4",
+        "download_hash": {
+          "sha1": "9C7B8A58DC9C2C027D4FEBECCBD4B177BAC206FC",
+          "sha256": "1610B0C0BA81BD0D051D645DDF7109F238F7216B3F99379D30F46D64964D1D7A"
+        },
+        "download_size": 1292868,
+        "identifier": "RasterPropMonitor-Core",
+        "install": [
+          {
+            "find": "JSI/RasterPropMonitor",
+            "install_to": "GameData/JSI"
+          },
+          {
+            "find": "JSI/RPMPodPatches/BasicMFD",
+            "install_to": "GameData/JSI/RPMPodPatches"
+          }
+        ],
+        "install_size": 6466986,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-3.0",
+        "name": "RasterPropMonitor Core",
+        "recommends": [
+          {
+            "name": "DE-IVAExtension"
+          },
+          {
+            "name": "FreeIva"
+          }
+        ],
+        "release_date": "2023-11-10T21:45:20.320762Z",
+        "resources": {
+          "bugtracker": "https://github.com/FirstPersonKSP/RasterPropMonitor/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-18x-110x-rasterpropmonitor-adopted/",
+          "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version",
+          "repository": "https://github.com/FirstPersonKSP/RasterPropMonitor",
+          "spacedock": "https://spacedock.info/mod/2534/RasterPropMonitor"
+        },
+        "spec_version": "v1.4",
+        "suggests": [
+          {
+            "name": "Astrogator"
+          },
+          {
+            "name": "DockingPortAlignmentIndicator"
+          },
+          {
+            "name": "NavUtilities"
+          },
+          {
+            "name": "SCANsat"
+          },
+          {
+            "name": "VesselView"
+          },
+          {
+            "name": "ProbeControlRoomRecontrolled"
+          },
+          {
+            "name": "kOSPropMonitor"
+          },
+          {
+            "name": "Chatterer"
+          },
+          {
+            "name": "Reviva"
+          },
+          {
+            "name": "MechJeb2"
+          },
+          {
+            "name": "RealChute"
+          },
+          {
+            "name": "ASETProps"
+          },
+          {
+            "name": "ASETAvionics"
+          },
+          {
+            "name": "Mk1LanderCanIVAReplbyASET"
+          },
+          {
+            "name": "MK12PodIVAReplacementbyASET"
+          },
+          {
+            "name": "ALCOR"
+          },
+          {
+            "name": "ThroughTheEyesOfaKerbal"
+          },
+          {
+            "name": "QuickIVA"
+          },
+          {
+            "name": "KSAIVAUpgrade"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "crewed",
+          "first-person"
+        ],
+        "version": "1:v0.31.13.4"
+      },
+      "version": "1:v0.31.13.4"
+    },
+    "ReStock": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A community-built replacement for KSP's part models and textures. No effects on gameplay",
+        "author": "ReStock Team",
+        "conflicts": [
+          {
+            "name": "VenStockRevamp"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.4.5/ReStock_1_4_5.zip",
+        "download_hash": {
+          "sha1": "BB2C84493C960394F2EE3367BAA9D4544D7FA1B9",
+          "sha256": "C16A176FA6E9D22842D220DCD82994C1B0019DB44E558C76712FBC7495B4B719"
+        },
+        "download_size": 236540738,
+        "identifier": "ReStock",
+        "install": [
+          {
+            "find": "ReStock"
+          }
+        ],
+        "install_size": 680440248,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.2",
+        "license": "restricted",
+        "localizations": [
+          "de-de",
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "ja",
+          "pt-br",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "ReStock",
+        "release_date": "2024-05-27T19:38:18Z",
+        "resources": {
+          "bugtracker": "https://github.com/PorktoberRevolution/ReStocked/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+          "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStock.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/Restock/GameData/ReStock/Versioning/ReStock.version",
+          "repository": "https://github.com/PorktoberRevolution/ReStocked"
+        },
+        "spec_version": "v1.4",
+        "suggests": [
+          {
+            "name": "ReStockPlus"
+          }
+        ],
+        "tags": [
+          "parts",
+          "graphics"
+        ],
+        "version": "1.4.5"
+      },
+      "version": "1.4.5"
+    },
+    "ReStockPlus": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A carefully curated set of new parts that fill gaping holes in the stock lineup, adding for example missing size classes for important part types",
+        "author": "ReStock Team",
+        "conflicts": [
+          {
+            "name": "VenStockRevamp"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "ReStock"
+          }
+        ],
+        "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.4.5/ReStockPlus_1_4_5.zip",
+        "download_hash": {
+          "sha1": "934DD6F754FBB24D862574784653607E187A8C98",
+          "sha256": "9CCB79A05E576A2E2B67BB389F584976709F1C60DD8A376EF585FAEEB2FD6458"
+        },
+        "download_size": 19102482,
+        "identifier": "ReStockPlus",
+        "install": [
+          {
+            "find": "ReStockPlus"
+          }
+        ],
+        "install_size": 66983541,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.2",
+        "license": "restricted",
+        "localizations": [
+          "de-de",
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "ja",
+          "pt-br",
+          "zh-cn"
+        ],
+        "name": "ReStock+",
+        "release_date": "2024-05-27T19:38:24Z",
+        "resources": {
+          "bugtracker": "https://github.com/PorktoberRevolution/ReStocked/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+          "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStockPlus.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/RestockPlus/GameData/ReStockPlus/Versioning/ReStockPlus.version",
+          "repository": "https://github.com/PorktoberRevolution/ReStocked"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "parts"
+        ],
+        "version": "1.4.5"
+      },
+      "version": "1.4.5"
+    },
+    "RecoveryController": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Allows different mods to work together when recovering a staged rocket.",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1311/RecoveryController/download/0.0.4.2",
+        "download_hash": {
+          "sha1": "28C782D24E7E3B7DC847EBC618517C9346A22983",
+          "sha256": "FEFA759B990C286F8E2E80F96530743C7DD9160C6EB7D39D8E8FC5CA28E77424"
+        },
+        "download_size": 16269,
+        "identifier": "RecoveryController",
+        "install": [
+          {
+            "find": "RecoveryController"
+          }
+        ],
+        "install_size": 31824,
+        "ksp_version_max": "1.12.9",
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "name": "RecoveryController",
+        "release_date": "2023-05-25T14:52:55.736125Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/FMRS/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158970-12-recoverycontroller-let-fmrs-and-stagerecovery-work-together/#comment-3015906",
+          "remote-avc": "http://ksp.spacetux.net/avc/RecoveryController",
+          "repository": "https://github.com/linuxgurugamer/FMRS",
+          "spacedock": "https://spacedock.info/mod/1311/RecoveryController"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "career"
+        ],
+        "version": "0.0.4.2"
+      },
+      "version": "0.0.4.2"
+    },
+    "ReentryParticleEffect": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "This mod adds code to display an unused stock particle effect for reentry, featuring a plasma trail and sparks.",
+        "author": "leatherneck6017",
+        "download": "https://spacedock.info/mod/2373/Reentry%20Particle%20Effect%20Renewed/download/1.9.1.1",
+        "download_hash": {
+          "sha1": "88AC5B9495FFE42505056BB18B9EDDE1E89DBA78",
+          "sha256": "0DAF90DFC30C5E092C17023E95626B0AFECA5C1149D32D943FD55C830E9A97B0"
+        },
+        "download_size": 13760,
+        "identifier": "ReentryParticleEffect",
+        "install": [
+          {
+            "find": "GameData/ReentryParticleEffectRenewed"
+          }
+        ],
+        "install_size": 29499,
+        "ksp_version_max": "1.12.3",
+        "ksp_version_min": "1.8.0",
+        "license": "GPL-2.0",
+        "name": "Reentry Particle Effect Renewed",
+        "release_date": "2020-03-26T22:30:21.531897Z",
+        "resources": {
+          "bugtracker": "https://github.com/leatherneck6017/ReentryParticleEffectRenewed/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192648-18x19x-reentry-particle-effect-renewed-26-mar-20/",
+          "remote-avc": "https://raw.githubusercontent.com/leatherneck6017/ReentryParticleEffectRenewed/master/GameData/ReentryParticleEffectRenewed/ReentryParticleEffectRenewed.version",
+          "repository": "https://github.com/leatherneck6017/ReentryParticleEffectRenewed",
+          "spacedock": "https://spacedock.info/mod/2373/Reentry%20Particle%20Effect%20Renewed"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "graphics"
+        ],
+        "version": "1.9.1.1"
+      },
+      "version": "1.9.1.1"
+    },
+    "SAVE": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "automatic backup system",
+        "author": "linuxgurugamer",
+        "download": "https://spacedock.info/mod/2822/S.A.V.E%20Resaved/download/1.11.0.4",
+        "download_hash": {
+          "sha1": "AFCF661CFC2A6DCBEC43BC95203F1C5C6D2054E7",
+          "sha256": "119871A8900CA1402A6C3F4C43C1E9307812748BDBAB09A0501E743E84394004"
+        },
+        "download_size": 74211,
+        "identifier": "SAVE",
+        "install": [
+          {
+            "file": "GameData/Nereid",
+            "filter": "source"
+          }
+        ],
+        "install_size": 167420,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "LGPL-3.0",
+        "name": "S.A.V.E Resaved",
+        "release_date": "2023-05-06T02:51:57.798345Z",
+        "resources": {
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204374-1122-save-resaved-automatic-backup-system/",
+          "remote-avc": "http://ksp.spacetux.net/avc/S.A.V.E",
+          "repository": "https://github.com/linuxgurugamer/S.A.V.E",
+          "spacedock": "https://spacedock.info/mod/2822/S.A.V.E%20Resaved"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin"
+        ],
+        "version": "1.11.0.4"
+      },
+      "version": "1.11.0.4"
+    },
+    "Scatterer": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Atmospheric scattering shaders",
+        "author": "blackrack",
+        "conflicts": [
+          {
+            "name": "Scatterer"
+          }
+        ],
+        "depends": [
+          {
+            "name": "Scatterer-sunflare"
+          },
+          {
+            "name": "Scatterer-config"
+          }
+        ],
+        "download": "https://spacedock.info/mod/141/Scatterer/download/0.0838",
+        "download_hash": {
+          "sha1": "BD1C30121F3295872EF99E2038E361757167265D",
+          "sha256": "F55D154D053F38B9FA778607FCE182EAE6FD11344DA9706D13DCB2130DA2305E"
+        },
+        "download_size": 9423472,
+        "identifier": "Scatterer",
+        "install": [
+          {
+            "filter_regexp": "config\\/.*",
+            "find": "Scatterer"
+          }
+        ],
+        "install_size": 7824338,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9",
+        "license": "GPL-3.0",
+        "name": "Scatterer",
+        "release_date": "2022-08-14T15:42:22.897793Z",
+        "release_status": "development",
+        "resources": {
+          "bugtracker": "https://github.com/LGhassen/Scatterer/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering",
+          "repository": "https://github.com/LGhassen/Scatterer",
+          "spacedock": "https://spacedock.info/mod/141/Scatterer"
+        },
+        "spec_version": "v1.10",
+        "tags": [
+          "graphics",
+          "plugin"
+        ],
+        "version": "3:v0.0838"
+      },
+      "version": "3:v0.0838"
+    },
+    "Scatterer-config": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Scatterer's default configuration. If you're not sure which one to pick, pick this.",
+        "author": "blackrack",
+        "comment": "Does not depend on Scatterer to match Scatterer-sunflare",
+        "conflicts": [
+          {
+            "name": "Scatterer-config"
+          }
+        ],
+        "download": "https://spacedock.info/mod/141/Scatterer/download/0.0838",
+        "download_hash": {
+          "sha1": "BD1C30121F3295872EF99E2038E361757167265D",
+          "sha256": "F55D154D053F38B9FA778607FCE182EAE6FD11344DA9706D13DCB2130DA2305E"
+        },
+        "download_size": 9423472,
+        "identifier": "Scatterer-config",
+        "install": [
+          {
+            "filter": "Sunflares",
+            "find": "Scatterer/config",
+            "install_to": "GameData/Scatterer"
+          }
+        ],
+        "install_size": 132761,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9",
+        "license": "GPL-3.0",
+        "name": "Scatterer Default Config",
+        "release_date": "2022-08-14T15:42:22.897793Z",
+        "release_status": "development",
+        "resources": {
+          "bugtracker": "https://github.com/LGhassen/Scatterer/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering",
+          "repository": "https://github.com/LGhassen/Scatterer",
+          "spacedock": "https://spacedock.info/mod/141/Scatterer"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "graphics",
+          "config"
+        ],
+        "version": "3:v0.0838"
+      },
+      "version": "3:v0.0838"
+    },
+    "Scatterer-sunflare": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Scatterer's default sunflare. If you're not sure which one to pick, pick this.",
+        "author": "blackrack",
+        "comment": "Does not depend on Scatterer to avoid planet packs forcing installation of Scatterer",
+        "conflicts": [
+          {
+            "name": "Scatterer-sunflare"
+          }
+        ],
+        "download": "https://spacedock.info/mod/141/Scatterer/download/0.0838",
+        "download_hash": {
+          "sha1": "BD1C30121F3295872EF99E2038E361757167265D",
+          "sha256": "F55D154D053F38B9FA778607FCE182EAE6FD11344DA9706D13DCB2130DA2305E"
+        },
+        "download_size": 9423472,
+        "identifier": "Scatterer-sunflare",
+        "install": [
+          {
+            "find": "Sunflares",
+            "install_to": "GameData/Scatterer/config"
+          }
+        ],
+        "install_size": 1755266,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9",
+        "license": "GPL-3.0",
+        "name": "Scatterer Sunflare",
+        "provides": [
+          "Scatterer-sunflare-default"
+        ],
+        "release_date": "2022-08-14T15:42:22.897793Z",
+        "release_status": "development",
+        "resources": {
+          "bugtracker": "https://github.com/LGhassen/Scatterer/issues",
+          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering",
+          "repository": "https://github.com/LGhassen/Scatterer",
+          "spacedock": "https://spacedock.info/mod/141/Scatterer"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "graphics",
+          "config"
+        ],
+        "version": "3:v0.0838"
+      },
+      "version": "3:v0.0838"
+    },
+    "ScienceAlert": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Let you know when Science is available, and lets you run it",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1886/ScienceAlert%20ReAlerted/download/1.9.20.4",
+        "download_hash": {
+          "sha1": "37ECF6D573B807FF91C726854BBCE5E4EDDDD45A",
+          "sha256": "7A31EF035AA4BD7A64C981B93B54AF000834AC522D7D78FB524ADA065A265590"
+        },
+        "download_size": 683404,
+        "identifier": "ScienceAlert",
+        "install_size": 870790,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9.0",
+        "license": "GPL-3.0",
+        "localizations": [
+          "en-us",
+          "es-es",
+          "it-it",
+          "ru-ru"
+        ],
+        "name": "ScienceAlert ReAlerted",
+        "release_date": "2023-05-02T17:31:41.026382Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/ScienceAlert/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175772-14-sciencealert",
+          "remote-avc": "http://ksp.spacetux.net/avc/ScienceAlert",
+          "repository": "https://github.com/linuxgurugamer/ScienceAlert",
+          "spacedock": "https://spacedock.info/mod/1886/ScienceAlert%20ReAlerted"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "science",
+          "information"
+        ],
+        "version": "1.9.20.4"
+      },
+      "version": "1.9.20.4"
+    },
+    "ScienceSituationInfo": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Extended information about Scientific Experiments in VAB/SPH",
+        "author": "linuxgurugamer",
+        "download": "https://spacedock.info/mod/2000/Extended%20information%20about%20scientific%20experiments%20in%20VAB/download/1.3.5",
+        "download_hash": {
+          "sha1": "63714DB1A683747FF82A4C0591097401E8D53C30",
+          "sha256": "A3257F0046DDE6B014E8340D54E243854EAC011CDA1DBFC7F143583062F20B27"
+        },
+        "download_size": 21355,
+        "identifier": "ScienceSituationInfo",
+        "install": [
+          {
+            "find": "SituationModuleInfo"
+          }
+        ],
+        "install_size": 62179,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-SA",
+        "name": "Extended information about scientific experiments in VAB",
+        "release_date": "2021-09-27T15:57:04.634259Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/SituationModuleInfo/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179661-15-extended-information-about-scientific-experiments-in-vab-sph/",
+          "remote-avc": "http://ksp.spacetux.net/avc/SituationModuleInfo",
+          "repository": "https://github.com/linuxgurugamer/SituationModuleInfo",
+          "spacedock": "https://spacedock.info/mod/2000/Extended%20information%20about%20scientific%20experiments%20in%20VAB"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "editor",
+          "information",
+          "science"
+        ],
+        "version": "1:1.3.5"
+      },
+      "version": "1:1.3.5"
+    },
+    "ScrapYard": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A common part inventory add-on for Kerbal Space Program.",
+        "author": [
+          "magico13",
+          "severedsolo",
+          "zer0Kerbal"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "ContractConfigurator"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1746/ScrapYard%20(SYD)/download/2.2.2.1-release",
+        "download_hash": {
+          "sha1": "02673774210B502AD29D4E6ABFED1C9D736543AE",
+          "sha256": "775F652F4AA68AA20F0A1DCAD314599853E055AFA7C4AA0E20DFD750BC6C21DE"
+        },
+        "download_size": 107378,
+        "identifier": "ScrapYard",
+        "install_size": 223499,
+        "ksp_version_max": "1.12.3",
+        "ksp_version_min": "1.7.3",
+        "license": "GPL-2.0",
+        "localizations": [
+          "en-us"
+        ],
+        "name": "ScrapYard",
+        "recommends": [
+          {
+            "name": "OhScrap"
+          }
+        ],
+        "release_date": "2023-01-08T19:16:14.364468Z",
+        "resources": {
+          "bugtracker": "https://github.com/zer0Kerbal/ScrapYard/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*/",
+          "remote-avc": "https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/GameData/ScrapYard/ScrapYard.version",
+          "repository": "https://github.com/zer0Kerbal/ScrapYard",
+          "spacedock": "https://spacedock.info/mod/1746/ScrapYard%20(SYD)"
+        },
+        "spec_version": "v1.4",
+        "suggests": [
+          {
+            "name": "GPOSpeedPump"
+          },
+          {
+            "name": "Kaboom"
+          },
+          {
+            "name": "KerbalConstructionTime"
+          },
+          {
+            "name": "KerbalKrashSystem"
+          },
+          {
+            "name": "Komplexity"
+          },
+          {
+            "name": "KSP-Recall"
+          },
+          {
+            "name": "StageRecovery"
+          },
+          {
+            "name": "Tweakscale"
+          }
+        ],
+        "supports": [
+          {
+            "name": "ContractConfigurator"
+          },
+          {
+            "name": "FerramAerospaceResearchContinued"
+          },
+          {
+            "name": "KerbalConstructionTime"
+          },
+          {
+            "name": "KerbalKrashSystem"
+          },
+          {
+            "name": "RemoteTech"
+          },
+          {
+            "name": "StageRecovery"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "editor"
+        ],
+        "version": "2.2.2.1-release"
+      },
+      "version": "2.2.2.1-release"
+    },
+    "SpaceTuxLibrary": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "A library of small functions for use by mods",
+        "author": "linuxgurugamer",
+        "download": "https://spacedock.info/mod/2210/SpaceTux%20Library/download/0.0.8.6",
+        "download_hash": {
+          "sha1": "D39CA3182B6CA6488B8CE0CD73479844E447FC1D",
+          "sha256": "A0F2A72186AFC9CD9285B1C980B722FB119A1087E24190D9502B6BF4CBFB9A82"
+        },
+        "download_size": 497053,
+        "identifier": "SpaceTuxLibrary",
+        "install": [
+          {
+            "find": "SpaceTuxLibrary"
+          }
+        ],
+        "install_size": 578505,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.8.0",
+        "license": "GPL-3.0",
+        "name": "SpaceTux Library",
+        "provides": [
+          "ButtonManager",
+          "KSPColorPicker",
+          "KSPLog",
+          "KSPPartHighlighter",
+          "SpaceTuxUtility",
+          "VesselModuleSave"
+        ],
+        "release_date": "2024-03-24T14:42:21.501518Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/SpaceTuxLibrary/issues",
+          "remote-avc": "http://ksp.spacetux.net/avc/SpaceTuxLibrary",
+          "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary",
+          "spacedock": "https://spacedock.info/mod/2210/SpaceTux%20Library"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "0.0.8.6"
+      },
+      "version": "0.0.8.6"
+    },
+    "SpaceXLegs": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "KRE - A collection of parts to make your rockets reusable.",
+        "author": [
+          "EmbersArc",
+          "damon"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://spacedock.info/mod/841/Kerbal%20Reusability%20Expansion/download/2.9.3",
+        "download_hash": {
+          "sha1": "5C126811A6F3B7552DE30868E960B3FCBD3B1A0C",
+          "sha256": "8A82DEA6DA0F1B4235CDF3E6ACB10550F224B329389ADE3E8557FF3C7956A0F0"
+        },
+        "download_size": 49572913,
+        "identifier": "SpaceXLegs",
+        "install": [
+          {
+            "file": "KerbalReusabilityExpansion"
+          }
+        ],
+        "install_size": 133806291,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.5.1",
+        "license": "MIT",
+        "name": "Kerbal Reusability Expansion",
+        "recommends": [
+          {
+            "name": "FMRSContinued"
+          },
+          {
+            "name": "Trajectories"
+          }
+        ],
+        "release_date": "2023-04-30T15:30:55.937242Z",
+        "resources": {
+          "bugtracker": "https://github.com/TundraMods/Kerbal-Reusability-Expansion/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195546-110-kre-kerbal-reusability-expansion/",
+          "remote-avc": "https://raw.githubusercontent.com/damonvv/Kerbal-Reusability-Expansion/master/GameData/KerbalReusabilityExpansion/KRE_VERSION.version",
+          "repository": "https://github.com/TundraMods/Kerbal-Reusability-Expansion",
+          "spacedock": "https://spacedock.info/mod/841/Kerbal%20Reusability%20Expansion"
+        },
+        "spec_version": "v1.2",
+        "supports": [
+          {
+            "name": "TweakScale"
+          },
+          {
+            "name": "RealPlume"
+          },
+          {
+            "name": "FerramAerospaceResearch"
+          }
+        ],
+        "tags": [
+          "parts"
+        ],
+        "version": "2.9.3"
+      },
+      "version": "2.9.3"
+    },
+    "SpacetuxSA": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Common stuff for my mods",
+        "author": "linuxgurugamer",
+        "download": "https://spacedock.info/mod/53/SpacetuxSA/download/0.3.13.1",
+        "download_hash": {
+          "sha1": "80290DDAFAC307E7DFC80C3C27148C9D25B5D58C",
+          "sha256": "4FD96F998E0B0034F1472E651687EC238A03F1FB5523E48326289C00CDDBFD36"
+        },
+        "download_size": 151147,
+        "identifier": "SpacetuxSA",
+        "install": [
+          {
+            "find": "SpaceTuxSA"
+          }
+        ],
+        "install_size": 161646,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.8.0",
+        "license": "MIT",
+        "name": "SpacetuxSA",
+        "release_date": "2020-03-09T05:18:32.530705Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/SpaceTuxSA/issues",
+          "remote-avc": "http://ksp.spacetux.net/avc/SpaceTuxSA",
+          "repository": "https://github.com/linuxgurugamer/SpaceTuxSA",
+          "spacedock": "https://spacedock.info/mod/53/SpacetuxSA"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "config",
+          "library"
+        ],
+        "version": "0.3.13.1"
+      },
+      "version": "0.3.13.1"
+    },
+    "StageRecovery": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Recover Funds, Kerbals, and Science from Dropped Stages",
+        "author": [
+          "magico13",
+          "linuxgurugamer"
+        ],
+        "conflicts": [
+          {
+            "name": "DebRefund"
+          }
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/219/StageRecovery/download/1.9.7",
+        "download_hash": {
+          "sha1": "C4EAE465F7F2C65BDEFAD6DBEF9C104A2040C12E",
+          "sha256": "CED19361867082A3540E1587019FCD097E189B0EA2F5BFA96091AE2ADC7E7B46"
+        },
+        "download_size": 65488,
+        "identifier": "StageRecovery",
+        "install": [
+          {
+            "file": "GameData/StageRecovery"
+          }
+        ],
+        "install_size": 138631,
+        "ksp_version_max": "1.12.9",
+        "ksp_version_min": "1.12.0",
+        "license": "GPL-3.0",
+        "localizations": [
+          "en-us"
+        ],
+        "name": "StageRecovery",
+        "release_date": "2023-12-28T19:28:23.810609Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/StageRecovery/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179306-151-stagerecovery-recover-funds-from-dropped-stages/&",
+          "remote-avc": "http://ksp.spacetux.net/avc/StageRecovery",
+          "repository": "https://github.com/linuxgurugamer/StageRecovery",
+          "spacedock": "https://spacedock.info/mod/219/StageRecovery"
+        },
+        "spec_version": "1",
+        "suggests": [
+          {
+            "name": "KerbalConstructionTime"
+          },
+          {
+            "name": "Toolbar"
+          }
+        ],
+        "tags": [
+          "plugin",
+          "career"
+        ],
+        "version": "1.9.7"
+      },
+      "version": "1.9.7"
+    },
+    "StationKeeping": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Adds a button in the Tracking Station to set a ship's orbit. If you are with 1% (configurable) of your target orbit, you can simply push the button to set the orbit's semi-major axis to exactly what you want, so it won't drift out of alignment as you time warp.",
+        "author": [
+          "swilbur",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://github.com/linuxgurugamer/StationKeeping/releases/download/0.2.3.1/StationKeeping-1.12.0-0.2.3.1.zip",
+        "download_hash": {
+          "sha1": "1B46E2176F4CA876C6799C314D0F5D855AF6AD8D",
+          "sha256": "5669CA5533B7F2C87739FF337C44E0AAADE04DC88E3134C1BC839DFA48BD6D16"
+        },
+        "download_size": 37403,
+        "identifier": "StationKeeping",
+        "install": [
+          {
+            "find": "StationKeeping"
+          }
+        ],
+        "install_size": 55604,
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-4.0",
+        "name": "Station Keeping",
+        "release_date": "2023-12-17T19:34:23Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/StationKeeping/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173518-*",
+          "remote-avc": "http://ksp.spacetux.net/avc/StationKeeping",
+          "repository": "https://github.com/linuxgurugamer/StationKeeping"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1:0.2.3.1"
+      },
+      "version": "1:0.2.3.1"
+    },
+    "TextureReplacer": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Kerbal personalisation, IVA suits on Kerbin and texture replacement and improvements.",
+        "author": [
+          "shaw",
+          "RangeMachine",
+          "rbray89",
+          "Sylith",
+          "IOI-655362"
+        ],
+        "comment": "Plugin is MIT, but the included skins are CC-BY-4.0.",
+        "download": "https://github.com/ducakar/TextureReplacer/releases/download/v4.5.3/TextureReplacer-4.5.3.zip",
+        "download_hash": {
+          "sha1": "07FB407D77B35E6E9EA4190CD6450435F80BF7B6",
+          "sha256": "3BC3F0E69DCC2586AD251CA74D42088DD849A9C38CCABA06B3A6E8F801F97097"
+        },
+        "download_size": 9524396,
+        "identifier": "TextureReplacer",
+        "install_size": 30968950,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.0",
+        "license": "MIT",
+        "name": "TextureReplacer",
+        "release_date": "2022-02-07T23:39:00Z",
+        "resources": {
+          "bugtracker": "https://github.com/ducakar/TextureReplacer/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/96851-x",
+          "remote-avc": "https://raw.githubusercontent.com/ducakar/TextureReplacer/master/GameData/TextureReplacer/TextureReplacer.version",
+          "repository": "https://github.com/ducakar/TextureReplacer"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "graphics"
+        ],
+        "version": "v4.5.3"
+      },
+      "version": "v4.5.3"
+    },
+    "Toolbar": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "API for third-party plugins to provide toolbar buttons",
+        "author": [
+          "blizzy78",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/2090/Toolbar/download/1.8.1.1",
+        "download_hash": {
+          "sha1": "E9785A17902D2160DD23456C7A465DA5F25079D4",
+          "sha256": "B59E80385158224CADA32FEFE68A73D44A8C6FC82978641D8EC43360F833DDD6"
+        },
+        "download_size": 96185,
+        "identifier": "Toolbar",
+        "install": [
+          {
+            "find": "GameData/000_Toolbar"
+          }
+        ],
+        "install_size": 185045,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "BSD-2-clause",
+        "localizations": [
+          "de-de",
+          "en-us",
+          "es-es",
+          "jp",
+          "pt-br",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "Toolbar",
+        "release_date": "2023-07-23T14:11:18.207745Z",
+        "release_status": "stable",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/ksp_toolbar/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161857-15-toolbar-continued-common-api-for-draggableresizable-buttons-toolbar/",
+          "remote-avc": "http://ksp.spacetux.net/avc/Toolbar",
+          "repository": "https://github.com/linuxgurugamer/ksp_toolbar",
+          "spacedock": "https://spacedock.info/mod/2090/Toolbar"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1:1.8.1.1"
+      },
+      "version": "1:1.8.1.1"
+    },
+    "ToolbarController": {
+      "automatic": true,
+      "metadata": {
+        "abstract": "Wrapper mod around the Blizzy and stock toolbars",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ClickThroughBlocker"
+          }
+        ],
+        "download": "https://spacedock.info/mod/1931/ToolbarController/download/0.1.9.11",
+        "download_hash": {
+          "sha1": "2E681C06C1B39C3482341C699188749587ED7DD9",
+          "sha256": "389FE41F38920BFBE64620995EBE698809EA26462CDFA3F8E4E644AF3A098419"
+        },
+        "download_size": 88435,
+        "identifier": "ToolbarController",
+        "install": [
+          {
+            "find": "001_ToolbarControl"
+          }
+        ],
+        "install_size": 131430,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.9.0",
+        "license": "GPL-3.0",
+        "name": "Toolbar Controller",
+        "recommends": [
+          {
+            "name": "Toolbar"
+          }
+        ],
+        "release_date": "2023-07-01T02:58:44.880316Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/ToolbarControl/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/",
+          "remote-avc": "http://ksp.spacetux.net/avc/ToolbarControl",
+          "repository": "https://github.com/linuxgurugamer/ToolbarControl",
+          "spacedock": "https://spacedock.info/mod/1931/ToolbarController"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "1:0.1.9.11"
+      },
+      "version": "1:0.1.9.11"
+    },
+    "TrackingStationEvolved": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "An addon to improve the tracking station vessel selection list.",
+        "author": "DMagic",
+        "download": "https://spacedock.info/mod/1738/Tracking%20Station%20Evolved/download/7.0",
+        "download_hash": {
+          "sha1": "F5505C62B08D59CA4A617E71E3222E55454EFF3D",
+          "sha256": "2E59C712DE043BE85B4E062FEDA6B20390EADE8CC0FBCBF27B2FF4A6BCBAB28D"
+        },
+        "download_size": 91924,
+        "identifier": "TrackingStationEvolved",
+        "install_size": 152434,
+        "ksp_version_max": "1.12.8",
+        "ksp_version_min": "1.12.2",
+        "license": "MIT",
+        "name": "Tracking Station Evolved",
+        "release_date": "2021-12-18T03:19:36.035585Z",
+        "resources": {
+          "bugtracker": "https://github.com/DMagic1/KSP_BetterTracking/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172162-141-dmagics-evolved-mods-tracking-station-evolved-v10-3-13-2018/",
+          "remote-avc": "https://raw.githubusercontent.com/DMagic1/KSP_BetterTracking/master/GameData/TrackingStationEvolved/TrackingStationEvolved.version",
+          "repository": "https://github.com/DMagic1/KSP_BetterTracking",
+          "spacedock": "https://spacedock.info/mod/1738/Tracking%20Station%20Evolved"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "information",
+          "convenience"
+        ],
+        "version": "7.0"
+      },
+      "version": "7.0"
+    },
+    "Trajectories": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The mod displays trajectory predictions, accounting for atmospheric drag, lift, etc. Works with the stock aerodynamic model, and also with Ferram Aerospace Research (FAR).",
+        "author": [
+          "Youen",
+          "Kobymaru",
+          "PiezPiedPy",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/396/Trajectories/download/2.4.5.3",
+        "download_hash": {
+          "sha1": "2BA8F034625AA94710C62E9E60B1134253238EA8",
+          "sha256": "4003835E8CC8C34E99115DFB962FF5ED1868FDAF6448C374A1660C9B6AC1BA76"
+        },
+        "download_size": 162725,
+        "identifier": "Trajectories",
+        "install_size": 351262,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.0",
+        "license": "GPL-3.0",
+        "localizations": [
+          "de-de",
+          "en-us",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja",
+          "pt-br",
+          "ru",
+          "zh-cn"
+        ],
+        "name": "Trajectories",
+        "release_date": "2023-12-28T19:17:57.801316Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/KSPTrajectories/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162324-131-181",
+          "remote-avc": "http://ksp.spacetux.net/avc/Trajectories",
+          "repository": "https://github.com/linuxgurugamer/KSPTrajectories",
+          "spacedock": "https://spacedock.info/mod/396/Trajectories"
+        },
+        "spec_version": "1",
+        "tags": [
+          "plugin",
+          "information"
+        ],
+        "version": "v2.4.5.3"
+      },
+      "version": "v2.4.5.3"
+    },
+    "TransferWindowPlannerFork": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "A fork of TriggerAu's Transfer Window Planner mod. Instead of assuming an equatorial orbit with a plane change in the ejection burn, this version shows the required parking orbit plane such that the ejection burn is purely prograde. This can save a lot of ??v when the planes of the departure and destination body are not exactly the same as that of the departure body's equator.",
+        "author": [
+          "TriggerAu",
+          "Nazfib"
+        ],
+        "conflicts": [
+          {
+            "name": "TransferWindowPlanner"
+          }
+        ],
+        "download": "https://github.com/Nazfib/TransferWindowPlanner/releases/download/v1.9.1.0/TransferWindowPlanner_v1.9.1.0.zip",
+        "download_hash": {
+          "sha1": "6C7C8E9097E27B87E255F36BA8CA4EBBDBED8207",
+          "sha256": "0712B2E7705B0C57662C4A7BC03445753125E6560F88A931622F6FC851B7818C"
+        },
+        "download_size": 98459,
+        "identifier": "TransferWindowPlannerFork",
+        "install": [
+          {
+            "find": "TransferWindowPlanner",
+            "install_to": "GameData/TriggerTech"
+          }
+        ],
+        "install_size": 172245,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "name": "Transfer Window Planner - Fork",
+        "recommends": [
+          {
+            "name": "TriggerAu-Flags"
+          }
+        ],
+        "release_date": "2023-03-13T14:22:29Z",
+        "resources": {
+          "bugtracker": "https://github.com/Nazfib/TransferWindowPlanner/issues",
+          "homepage": "https://discordapp.com/invite/ZGbR6nv",
+          "remote-avc": "https://raw.githubusercontent.com/Nazfib/TransferWindowPlanner/master/TransferWindowPlanner/TransferWindowPlanner.version",
+          "repository": "https://github.com/Nazfib/TransferWindowPlanner"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "information"
+        ],
+        "version": "v1.9.1.0"
+      },
+      "version": "v1.9.1.0"
+    },
+    "VABReorienter": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Pick a different default ship orientation for the VAB (not just north!)",
+        "author": "Snark",
+        "download": "https://spacedock.info/mod/1759/VABReorienter/download/1.2",
+        "download_hash": {
+          "sha1": "C710A3D36761966D389FB82387FDBFD72DFA5490",
+          "sha256": "066AF85DDA0A5C611E53A7CF577DBA178F6B709F0D54780E26483830F5E0B381"
+        },
+        "download_size": 9891,
+        "identifier": "VABReorienter",
+        "install_size": 25239,
+        "ksp_version_max": "1.12.3",
+        "ksp_version_min": "1.8",
+        "license": "CC-BY-NC-SA",
+        "name": "VABReorienter",
+        "release_date": "2019-10-17T02:33:44.915165Z",
+        "resources": {
+          "bugtracker": "https://github.com/KSPSnark/VABReorienter/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172840-141-vabreorienter-sets-default-vab-orientation-to-east-not-north/",
+          "repository": "https://github.com/KSPSnark/VABReorienter",
+          "spacedock": "https://spacedock.info/mod/1759/VABReorienter"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "convenience"
+        ],
+        "version": "1.2"
+      },
+      "version": "1.2"
+    },
+    "Waterfall": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Core Waterfall plugin to drive engine effects, plus default effect templates. Does nothing on its own, other mods supply compatibility.",
+        "author": "Chris Adderley (Nertea)",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          }
+        ],
+        "download": "https://github.com/post-kerbin-mining-corporation/Waterfall/releases/download/0.9.0/Waterfall_0_9_0.zip",
+        "download_hash": {
+          "sha1": "AF24340DB58218A4B4ADEA202FC2E567D26FAD2A",
+          "sha256": "3E848A21FAB2293E8B799E2B9AC8F899AD332C1C95E2C453419392FFBD30AB7C"
+        },
+        "download_size": 22113198,
+        "identifier": "Waterfall",
+        "install": [
+          {
+            "find": "Waterfall"
+          }
+        ],
+        "install_size": 27783191,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.1",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "Waterfall Core",
+        "release_date": "2022-08-03T03:56:02Z",
+        "resources": {
+          "bugtracker": "https://github.com/post-kerbin-mining-corporation/Waterfall/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196309-wip-waterfall-a-framework-for-continuous-mesh-driven-engine-effects-dec-19/",
+          "metanetkan": "https://github.com/post-kerbin-mining-corporation/Waterfall/raw/master/CKAN/Waterfall.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/Waterfall/master/GameData/Waterfall/Versioning/Waterfall.version",
+          "repository": "https://github.com/post-kerbin-mining-corporation/Waterfall"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "library"
+        ],
+        "version": "0.9.0"
+      },
+      "version": "0.9.0"
+    },
+    "WaterfallRestock": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Waterfall configuration for the Restock and Restock+ mods. Adds Waterfall-driven effects to most engines and lights.",
+        "author": "Chris Adderley (Nertea)",
+        "depends": [
+          {
+            "name": "ModuleManager"
+          },
+          {
+            "name": "Waterfall"
+          },
+          {
+            "name": "ReStock"
+          }
+        ],
+        "download": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/releases/download/0.2.3/WaterfallRestock_0_2_3.zip",
+        "download_hash": {
+          "sha1": "2F0595D6F2DD4CB11EE7744FE7EBF51704E39487",
+          "sha256": "380A4D91CC71F1F4C7D58E808C4B6D199EE9C1FF7FD7E3697D4AFB7D30B9543F"
+        },
+        "download_size": 21713575,
+        "identifier": "WaterfallRestock",
+        "install": [
+          {
+            "find": "WaterfallRestock"
+          }
+        ],
+        "install_size": 108304,
+        "ksp_version_max": "1.12.99",
+        "ksp_version_min": "1.8.1",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "Waterfall - Restock",
+        "release_date": "2021-08-26T19:54:08Z",
+        "resources": {
+          "bugtracker": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196309-wip-waterfall-a-framework-for-continuous-mesh-driven-engine-effects-dec-19/",
+          "metanetkan": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/raw/master/CKAN/WaterfallRestock.netkan",
+          "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/WaterfallRestock/master/GameData/WaterfallRestock/Versioning/WaterfallRestock.version",
+          "repository": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "graphics",
+          "plugin"
+        ],
+        "version": "0.2.3"
+      },
+      "version": "0.2.3"
+    },
+    "WaypointManager": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "Display waypoints while in flight, create custom waypoints.",
+        "author": "linuxgurugamer",
+        "depends": [
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/3107/WaypointManager/download/2.8.4.2",
+        "download_hash": {
+          "sha1": "D89FD8F4C76E0BDFB040CBB44A0C042253399979",
+          "sha256": "DC10BCB0DEA48A90A6E8C0C4252FE3764573C46E98127CBAF6D857572D35D829"
+        },
+        "download_size": 115249,
+        "identifier": "WaypointManager",
+        "install": [
+          {
+            "find": "WaypointManager"
+          }
+        ],
+        "install_size": 194185,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "MIT",
+        "name": "WaypointManager",
+        "release_date": "2024-03-08T13:46:10.69804Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/WaypointManager/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-18x-19x-waypoint-manager/",
+          "remote-avc": "http://ksp.spacetux.net/avc/WaypointManager",
+          "repository": "https://github.com/linuxgurugamer/WaypointManager",
+          "spacedock": "https://spacedock.info/mod/3107/WaypointManager"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "information",
+          "convenience"
+        ],
+        "version": "2.8.4.2"
+      },
+      "version": "2.8.4.2"
+    },
+    "xScienceContinued": {
+      "automatic": false,
+      "metadata": {
+        "abstract": "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments completed, recovered and held on vehicles and kerbals.",
+        "author": [
+          "Z-Key Aerospace",
+          "Brodrick",
+          "Flupster",
+          "linuxgurugamer"
+        ],
+        "depends": [
+          {
+            "name": "ClickThroughBlocker"
+          },
+          {
+            "name": "ToolbarController"
+          },
+          {
+            "name": "SpaceTuxLibrary"
+          }
+        ],
+        "download": "https://spacedock.info/mod/3100/%5BX%5D%20Science!%20Continued/download/6.0.2",
+        "download_hash": {
+          "sha1": "5B0B4F1F1471BF0529406108C99E66DAAA44037D",
+          "sha256": "89A004510EF5FC3CE19DC1B2A54B6C43BEEED16A6974C54D5BBA1DF301EC6228"
+        },
+        "download_size": 209786,
+        "identifier": "xScienceContinued",
+        "install": [
+          {
+            "find": "[x]_Science!"
+          }
+        ],
+        "install_size": 366389,
+        "ksp_version_max": "1.12.5",
+        "ksp_version_min": "1.12.0",
+        "license": "CC-BY-NC-SA-4.0",
+        "name": "[x] Science! Continued",
+        "release_date": "2023-08-31T15:13:19.165143Z",
+        "resources": {
+          "bugtracker": "https://github.com/linuxgurugamer/KSP-X-Science/issues",
+          "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/199287-*",
+          "remote-avc": "http://ksp.spacetux.net/avc/X-Science",
+          "repository": "https://github.com/linuxgurugamer/KSP-X-Science",
+          "spacedock": "https://spacedock.info/mod/3100/[X]%20Science!%20Continued"
+        },
+        "spec_version": "v1.4",
+        "tags": [
+          "plugin",
+          "information",
+          "science"
+        ],
+        "version": "6.0.2"
+      },
+      "version": "6.0.2"
+    }
+  },
+  "registry_sha256": "4652c157ef8a034b6357f87faca85e5a388230a121c78f781f83ab686db75d0a",
+  "schema": "meko-state/v1"
+}

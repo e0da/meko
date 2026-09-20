@@ -1,0 +1,156 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.02.57.55",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued",
+            "version": "2.0.9.1"
+        },
+        {
+            "name": "BetterTimeWarpCont",
+            "version": "2.3.13"
+        },
+        {
+            "name": "Chatterer",
+            "version": "0.9.99"
+        },
+        {
+            "name": "ChattererExtended",
+            "version": "0.6.2"
+        },
+        {
+            "name": "DistantObject",
+            "version": "v2.1.1.16"
+        },
+        {
+            "name": "DistantObject-default",
+            "version": "v2.1.1.16"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.7.1"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR",
+            "version": "2:EVE-1.2.2-1"
+        },
+        {
+            "name": "ForScienceUpdated",
+            "version": "1.6.0"
+        },
+        {
+            "name": "GRAPES",
+            "version": "1:GRAPES"
+        },
+        {
+            "name": "KerbalConstructionTime",
+            "version": "1:1.4.12"
+        },
+        {
+            "name": "KerbalEngineerRedux",
+            "version": "1.1.9.0"
+        },
+        {
+            "name": "LIME",
+            "version": "1:1.1.3.1"
+        },
+        {
+            "name": "MANGO",
+            "version": "1:1.1.1.1"
+        },
+        {
+            "name": "MechJeb2",
+            "version": "2.14.3.0"
+        },
+        {
+            "name": "ORANGE",
+            "version": "1:1.0.3.2"
+        },
+        {
+            "name": "Parallax",
+            "version": "2.0.6"
+        },
+        {
+            "name": "Parallax-StockScatterTextures",
+            "version": "2.0.1"
+        },
+        {
+            "name": "Parallax-StockTextures",
+            "version": "2.0.0"
+        },
+        {
+            "name": "PEAR",
+            "version": "1:1.0.2.1"
+        },
+        {
+            "name": "PlanetShine",
+            "version": "0.2.6.6"
+        },
+        {
+            "name": "PlanetShine-Config-Default",
+            "version": "0.2.6.6"
+        },
+        {
+            "name": "PLUM",
+            "version": "1:1.1.2"
+        },
+        {
+            "name": "RCSBuildAid",
+            "version": "v1.0.6"
+        },
+        {
+            "name": "ReentryParticleEffect",
+            "version": "1.9.1.1"
+        },
+        {
+            "name": "ReStock",
+            "version": "1.4.5"
+        },
+        {
+            "name": "ReStockPlus",
+            "version": "1.4.5"
+        },
+        {
+            "name": "Scatterer",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "Scatterer-sunflare",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "SpaceXLegs",
+            "version": "2.9.3"
+        },
+        {
+            "name": "StageRecovery",
+            "version": "1.9.7"
+        },
+        {
+            "name": "Toolbar",
+            "version": "1:1.8.1.1"
+        },
+        {
+            "name": "VABReorienter",
+            "version": "1.2"
+        },
+        {
+            "name": "Waterfall",
+            "version": "0.9.0"
+        },
+        {
+            "name": "WaterfallRestock",
+            "version": "0.2.3"
+        }
+    ],
+    "download": null,
+    "release_date": "2024-06-05T20:57:55.6859272-06:00",
+    "kind": "metapackage"
+}

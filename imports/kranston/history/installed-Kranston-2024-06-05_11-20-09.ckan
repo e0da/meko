@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.05.05.20.09",
+    "ksp_version_min": "1.12.5",
+    "ksp_version_max": "1.12.5",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "ForScienceUpdated",
+            "version": "1.6.0"
+        },
+        {
+            "name": "Toolbar",
+            "version": "1:1.8.1.1"
+        }
+    ],
+    "download": null,
+    "release_date": "2024-06-05T11:20:09.6005072-06:00",
+    "kind": "metapackage"
+}

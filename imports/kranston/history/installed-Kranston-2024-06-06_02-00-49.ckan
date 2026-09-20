@@ -1,0 +1,292 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "installed-Kranston",
+    "name": "installed-Kranston",
+    "abstract": "A list of modules installed on the Kranston KSP instance",
+    "author": "bug",
+    "version": "2024.06.06.08.00.49",
+    "ksp_version_min": "1.10",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "AnyResContinued",
+            "version": "2.0.9.1"
+        },
+        {
+            "name": "AutomatedScreenshots",
+            "version": "0.8.5.7"
+        },
+        {
+            "name": "BetterLoadSaveGame",
+            "version": "2.5.3.5"
+        },
+        {
+            "name": "BetterScienceLabsContinued",
+            "version": "0.2.1"
+        },
+        {
+            "name": "BetterTimeWarpCont",
+            "version": "2.3.13"
+        },
+        {
+            "name": "BonVoyage",
+            "version": "1:1.4.1"
+        },
+        {
+            "name": "CameraFocusChanger",
+            "version": "1:1.1.0.2"
+        },
+        {
+            "name": "Chatterer",
+            "version": "0.9.99"
+        },
+        {
+            "name": "ChattererExtended",
+            "version": "0.6.2"
+        },
+        {
+            "name": "CommunityDeltaVMaps",
+            "version": "2:2.8"
+        },
+        {
+            "name": "CrowdSourcedScience",
+            "version": "v6.1"
+        },
+        {
+            "name": "DE-IVAExtension",
+            "version": "v1.2.0"
+        },
+        {
+            "name": "DistantObject",
+            "version": "v2.1.1.16"
+        },
+        {
+            "name": "DistantObject-default",
+            "version": "v2.1.1.16"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator",
+            "version": "6.10.0.0"
+        },
+        {
+            "name": "EasyVesselSwitch",
+            "version": "2.3"
+        },
+        {
+            "name": "EditorExtensionsRedux",
+            "version": "3.4.5"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.7.1"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR",
+            "version": "2:EVE-1.2.2-1"
+        },
+        {
+            "name": "FMRSContinued",
+            "version": "1.2.9.5"
+        },
+        {
+            "name": "ForScienceUpdated",
+            "version": "1.6.0"
+        },
+        {
+            "name": "FreeIva",
+            "version": "0.2.18.4"
+        },
+        {
+            "name": "GRAPES",
+            "version": "1:GRAPES"
+        },
+        {
+            "name": "JanitorsCloset",
+            "version": "0.3.8"
+        },
+        {
+            "name": "KerbalConstructionTime",
+            "version": "1:1.4.12"
+        },
+        {
+            "name": "KerbalEngineerRedux",
+            "version": "1.1.9.0"
+        },
+        {
+            "name": "KerbalImprovedSaveSystem",
+            "version": "v2.4.2"
+        },
+        {
+            "name": "KRASH",
+            "version": "0.5.34"
+        },
+        {
+            "name": "LIME",
+            "version": "1:1.1.3.1"
+        },
+        {
+            "name": "MANGO",
+            "version": "1:1.1.1.1"
+        },
+        {
+            "name": "MechJeb2",
+            "version": "2.14.3.0"
+        },
+        {
+            "name": "OPMAllinOneKSPediaDeltaVMap",
+            "version": "1.0.1"
+        },
+        {
+            "name": "ORANGE",
+            "version": "1:1.0.3.2"
+        },
+        {
+            "name": "Parallax",
+            "version": "2.0.6"
+        },
+        {
+            "name": "Parallax-StockScatterTextures",
+            "version": "2.0.1"
+        },
+        {
+            "name": "Parallax-StockTextures",
+            "version": "2.0.0"
+        },
+        {
+            "name": "PEAR",
+            "version": "1:1.0.2.1"
+        },
+        {
+            "name": "PerSaveScreenshots",
+            "version": "1.0.1"
+        },
+        {
+            "name": "PlanetShine",
+            "version": "0.2.6.6"
+        },
+        {
+            "name": "PlanetShine-Config-Default",
+            "version": "0.2.6.6"
+        },
+        {
+            "name": "PLUM",
+            "version": "1:1.1.2"
+        },
+        {
+            "name": "PoodsCalmNebulaSkybox",
+            "version": "v1.3.0"
+        },
+        {
+            "name": "RasterPropMonitor",
+            "version": "1:v0.31.13.4"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "version": "1:v0.31.13.4"
+        },
+        {
+            "name": "RCSBuildAid",
+            "version": "v1.0.6"
+        },
+        {
+            "name": "ReentryParticleEffect",
+            "version": "1.9.1.1"
+        },
+        {
+            "name": "ReStock",
+            "version": "1.4.5"
+        },
+        {
+            "name": "ReStockPlus",
+            "version": "1.4.5"
+        },
+        {
+            "name": "SAVE",
+            "version": "1.11.0.4"
+        },
+        {
+            "name": "Scatterer",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "Scatterer-config",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "Scatterer-sunflare",
+            "version": "3:v0.0838"
+        },
+        {
+            "name": "ScienceAlert",
+            "version": "1.9.20.4"
+        },
+        {
+            "name": "ScienceSituationInfo",
+            "version": "1:1.3.5"
+        },
+        {
+            "name": "ScrapYard",
+            "version": "2.2.2.1-release"
+        },
+        {
+            "name": "SOS",
+            "version": "0.0.1.5"
+        },
+        {
+            "name": "SpaceXLegs",
+            "version": "2.9.3"
+        },
+        {
+            "name": "StageRecovery",
+            "version": "1.9.7"
+        },
+        {
+            "name": "StationKeeping",
+            "version": "1:0.2.3.1"
+        },
+        {
+            "name": "TextureReplacer",
+            "version": "v4.5.3"
+        },
+        {
+            "name": "Toolbar",
+            "version": "1:1.8.1.1"
+        },
+        {
+            "name": "TrackingStationEvolved",
+            "version": "7.0"
+        },
+        {
+            "name": "Trajectories",
+            "version": "v2.4.5.3"
+        },
+        {
+            "name": "TransferWindowPlannerFork",
+            "version": "v1.9.1.0"
+        },
+        {
+            "name": "VABReorienter",
+            "version": "1.2"
+        },
+        {
+            "name": "Waterfall",
+            "version": "0.9.0"
+        },
+        {
+            "name": "WaterfallRestock",
+            "version": "0.2.3"
+        },
+        {
+            "name": "WaypointManager",
+            "version": "2.8.4.2"
+        },
+        {
+            "name": "xScienceContinued",
+            "version": "6.0.2"
+        }
+    ],
+    "download": null,
+    "release_date": "2024-06-06T02:00:49.8856907-06:00",
+    "kind": "metapackage"
+}
